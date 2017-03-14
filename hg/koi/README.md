@@ -26,3 +26,8 @@ matrix.cpp는 좌표평면을 2차원 메트릭스에 그리드 모델링 시켜
 #### 2006/e_03_magicpaper
 https://www.acmicpc.net/problem/2574
 steps.cpp는 색종이를 자르는 스탭을 하나하나 찾아가는 방식으로 푼 풀이법 코드입니다.
+
+#### 2006/e_01_templeader
+https://www.acmicpc.net/problem/1268
+임시반장 정하기 문제
+brute.cpp는 하나하나 다 세어서 최고값을 구하는 방식으로 푼 풀이법 코드입니다.

@@ -22,3 +22,7 @@ first.cpp는 첫번째 풀이 시도이다. STL set을 이용하여 풀이하였
 #### 1996/e_03_rectangle
 https://www.acmicpc.net/problem/2669
 matrix.cpp는 좌표평면을 2차원 메트릭스에 그리드 모델링 시켜서 총 넓이를 계산하는 방식으로 푼 소스코드이다.
+
+#### 2006/e_03_magicpaper
+https://www.acmicpc.net/problem/2574
+steps.cpp는 색종이를 자르는 스탭을 하나하나 찾아가는 방식으로 푼 풀이법 코드입니다.

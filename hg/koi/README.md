@@ -4,13 +4,13 @@ https://www.acmicpc.net/category/55
 (한국 정보 올림피아드)
 
 #### 1996/e_01_danji
-https://www.acmicpc.net/problem/2667
+https://www.acmicpc.net/problem/2667    
 1996년 초등부 1번문제, 단지번호붙이기 문제 풀이이다.
 first.cpp는 첫번째 풀이 시도이다.    
 bfs의 개념을 조금 사용한 풀이방법이다.
 
 #### 1996/e_02_number
-https://www.acmicpc.net/problem/2668
+https://www.acmicpc.net/problem/2668    
 1996년 초등부 2번문제, 숫자고르기 문제 풀이이다.
 first.cpp는 첫번째 풀이 시도이다. STL set을 이용하여 풀이하였다.
 알고리즘은 다음과 같다.
@@ -20,14 +20,19 @@ first.cpp는 첫번째 풀이 시도이다. STL set을 이용하여 풀이하였
 4. B집합을 A집합으로 두고, B집합은 초기화한다. A집합을 기준으로 스텝 2를 다시 시도한 뒤 3번으로 간다.
 
 #### 1996/e_03_rectangle
-https://www.acmicpc.net/problem/2669
+https://www.acmicpc.net/problem/2669    
 matrix.cpp는 좌표평면을 2차원 메트릭스에 그리드 모델링 시켜서 총 넓이를 계산하는 방식으로 푼 소스코드이다.
 
 #### 2006/e_03_magicpaper
-https://www.acmicpc.net/problem/2574
+https://www.acmicpc.net/problem/2574    
 steps.cpp는 색종이를 자르는 스탭을 하나하나 찾아가는 방식으로 푼 풀이법 코드입니다.
 
 #### 2006/e_01_templeader
-https://www.acmicpc.net/problem/1268
-임시반장 정하기 문제
+https://www.acmicpc.net/problem/1268    
+임시반장 정하기 문제    
 brute.cpp는 하나하나 다 세어서 최고값을 구하는 방식으로 푼 풀이법 코드입니다.
+
+#### 2016/e_03_resort
+https://www.acmicpc.net/problem/13302    
+리조트 문제    
+dp.cpp 는 동적 프로그래밍(Dynamic Programming)으로 푼 풀이법이다.

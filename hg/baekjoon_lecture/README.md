@@ -11,6 +11,15 @@ ids.cpp는 Iterative-deepending depth-first-search로 푼 코드이다. 시간 �
 new_bfs.cpp는 bfs를 malloc을 사용하지 않고 푼 코드이나 똑같이 메모리 초과로 오답이다 ㅠㅠ    
 bfs_with_memo.cpp는 bfs에 visited node를 flag로 기록한 방식인데... 왜 이걸로는 풀리는지 좀더 연구가 필요할듯 하다 ㅠㅠ(정답)
 
+#### 4.3-bfs/13549-catch-that-cow-3
+https://www.acmicpc.net/problem/13549    
+4월 3일 bfs 강의 세번째 문제, 숨바꼭질3번 문제이다.    
+child node를 만들어서 사용을 할 경우 느려질 수 있다??    
+(이 부분은 맞는지, 아니면 단지 자료구조가 더 편한건지 모르겠다)    
+그래서 array를 활용한 bfs를 이용하여 풀었다.    
+bfs_with_memo.cpp는 숨바꼭질 문제를 푸는 방식을 적용해서 풀어보려다가 오답이 난 코드이다.    
+bfs_arr_ver.cpp는 bfs를 배열 자료구조를 활용하여 적용한 소스코드이다.(정답코드) 
+
 #### 4.3-bfs/19313-catch-that-cow-4
 https://www.acmicpc.net/problem/13913     
 4월 3일 bfs 강의 네번째 문제, 숨바꼭질4번 문제이다.    

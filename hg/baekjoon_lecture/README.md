@@ -20,5 +20,11 @@ bfs_with_memo.cpp는 1697번 문제를 푸는 해법에서, trace를 포인터�
 #### 4.3-bfs/2178-maze-search
 https://www.acmicpc.net/problem/2178     
 4월 3일 bfs 강의 다섯번째 문제, 미로탐색이다.    
-bfs 알고리즘을 이용해서 최적해를 구하면 된다.    
+bfs.cpp는 bfs 알고리즘을 이용해서 최적해를 구한 소스코드다.    
 한 번 지나간 길을 재탐색할 필요는 없다.        
+
+#### 4.3-bfs/5014-elevator-trouble
+https://www.acmicpc.net/problem/5014    
+4월 3일 bfs강의 여덟번째 문제, 스타트링크(엘리베이터 트러블)문제이다.    
+bfs.cpp는 bfs를 이용하여 최적해를 구한다.    
+한번 탐색한 층은 다시 탐색하지 않는다.

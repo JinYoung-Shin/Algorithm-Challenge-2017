@@ -13,6 +13,12 @@ bfs_with_memo.cpp는 bfs에 visited node를 flag로 기록한 방식인데... �
 
 #### 4.3-bfs/19313-catch-that-cow-4
 https://www.acmicpc.net/problem/13913     
-4월 3일 bfs 강의 다섯번째 문제, 숨바꼭질4번 문제이다.    
+4월 3일 bfs 강의 네번째 문제, 숨바꼭질4번 문제이다.    
 기존의 숨바꼭질 문제와 다른 점은, 가는 경로를 알려줘야 한다는 점이다.    
 bfs_with_memo.cpp는 1697번 문제를 푸는 해법에서, trace를 포인터를 이용해서 기록을 한 뒤, 마지막에 그 경로를 출력해준다는 부분만 다르다.    
+
+#### 4.3-bfs/2178-maze-search
+https://www.acmicpc.net/problem/2178     
+4월 3일 bfs 강의 다섯번째 문제, 미로탐색이다.    
+bfs 알고리즘을 이용해서 최적해를 구하면 된다.    
+한 번 지나간 길을 재탐색할 필요는 없다.        

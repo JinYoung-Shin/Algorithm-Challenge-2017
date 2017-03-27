@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd $1
-g++ src/$2.cpp -o bin/$2.out
+g++ src/$2.cpp -o bin/$2.out -std=c++11
 
 COMPILER_RET_STATUS=$?
 if [ "$COMPILER_RET_STATUS" != "0" ]

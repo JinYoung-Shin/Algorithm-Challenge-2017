@@ -16,7 +16,9 @@ int main() {
 	for( int i = 0; i < T; i++ ) {
 		scanf("%d %d", &N, &S);
 		for( int j = 0; j < N; j++ ) {
-			cin >> arr[j];
+			std::cout << "what the" << endl;
+			std::cin >> arr[j];
+			std::cout << "FFF..." << endl;
 		}
 		
 		printf("#testcase%d\n", i+1);

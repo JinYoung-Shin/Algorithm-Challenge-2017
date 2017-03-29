@@ -17,3 +17,8 @@ main.cpp는 c++ stl을 사용하여 summation 방식을 사용하여 풀이하�
 https://algospot.com/judge/problem/read/BOGGLE
 
 brute.cpp는 brute-force 방식으로 문제 풀이한 코드이다. 제출하면 시간제한으로 오답 처리된다.
+
+#### 03_picnic
+https://algospot.com/judge/problem/read/PICNIC    
+brute.cpp는 모든 케이스를 다 해보는 방식으로 푼 소스코드이다.    
+정답처리 받았다.

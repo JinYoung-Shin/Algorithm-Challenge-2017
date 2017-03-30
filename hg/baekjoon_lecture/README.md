@@ -37,3 +37,9 @@ https://www.acmicpc.net/problem/5014
 4월 3일 bfs강의 여덟번째 문제, 스타트링크(엘리베이터 트러블)문제이다.    
 bfs.cpp는 bfs를 이용하여 최적해를 구한다.    
 한번 탐색한 층은 다시 탐색하지 않는다.
+
+#### 4.3-bfs/3055-slikar
+https://www.acmicpc.net/problem/3055    
+4월 3일 bfs강의 아홉번째 문제, 탈출문제이다.
+bfs.cpp는 bfs를 이용하여 최적해를 구한다.    
+기존 미로찾기와 다른 부분은 스택을 2개를 써서 step by step으로 접근한다는 점

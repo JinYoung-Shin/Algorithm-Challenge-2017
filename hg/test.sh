@@ -1,7 +1,11 @@
 #!/bin/bash
 
 cd $1
-g++ src/$2.cpp -o bin/$2.out -std=c++11
+if [[ ! -e ./bin ]]; then
+    mkdir ./bin
+fi
+
+g++ src/$2.cpp -o bin/$2.out -std=c++11 -g
 
 COMPILER_RET_STATUS=$?
 if [ "$COMPILER_RET_STATUS" != "0" ]

@@ -43,3 +43,8 @@ https://www.acmicpc.net/problem/3055
 4월 3일 bfs강의 아홉번째 문제, 탈출문제이다.
 bfs.cpp는 bfs를 이용하여 최적해를 구한다.    
 기존 미로찾기와 다른 부분은 스택을 2개를 써서 step by step으로 접근한다는 점
+
+#### 4.3-bfs/14226-emoticon
+https://www.acmicpc.net/problem/14226    
+4월 3일 bfs강의 열세번째 문제, 이모티콘 문제이다.    
+bfs.cpp는 bfs를 이용하여 최적해를 구한다.

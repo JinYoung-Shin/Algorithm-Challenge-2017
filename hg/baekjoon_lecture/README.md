@@ -48,3 +48,13 @@ bfs.cpp는 bfs를 이용하여 최적해를 구한다.
 https://www.acmicpc.net/problem/14226    
 4월 3일 bfs강의 열세번째 문제, 이모티콘 문제이다.    
 bfs.cpp는 bfs를 이용하여 최적해를 구한다.
+
+#### 4.4-dp-basis/1463-make1
+https://www.acmicpc.net/problem/1463    
+4월 4일 dp 기초 강의 첫번째 문제, 1로 만들기 문제이다.    
+bfs.cpp는 bfs에 memoization 개념을 적용해서 푼 소스코드이다.
+
+#### 4.4-dp-basis/12852-make1-2
+https://www.acmicpc.net/problem/12852    
+4월 4일 dp 기초 강의 두번째 문제, 1로 만들기 2 문제이다.    
+bfs.cpp는 bfs에 memoization 개념을 적용해서 푼 소스코드이다.

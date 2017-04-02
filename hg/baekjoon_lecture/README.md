@@ -58,3 +58,11 @@ bfs.cpp는 bfs에 memoization 개념을 적용해서 푼 소스코드이다.
 https://www.acmicpc.net/problem/12852    
 4월 4일 dp 기초 강의 두번째 문제, 1로 만들기 2 문제이다.    
 bfs.cpp는 bfs에 memoization 개념을 적용해서 푼 소스코드이다.
+
+#### 4.4-dp-basis/9095-adding-123
+https://www.acmicpc.net/problem/9095    
+점화식만 잘 만들면 쉬운 문제    
+
+#### 4.4-dp-basis/11726-2n-tile
+https://www.acmicpc.net/problem/11726    
+전형적인 피보나치 문제. 산술 오버플로를 잘 고려하지 않으면 오답이 난다. 조심할 것!

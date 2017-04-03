@@ -66,3 +66,10 @@ https://www.acmicpc.net/problem/9095
 #### 4.4-dp-basis/11726-2n-tile
 https://www.acmicpc.net/problem/11726    
 전형적인 피보나치 문제. 산술 오버플로를 잘 고려하지 않으면 오답이 난다. 조심할 것!
+
+#### 4.4-dp-basis/2193-pinary-number
+https://www.acmicpc.net/problem/2193    
+점화식으로 푼다. An,0 -> n자리 0으로 끝나는 이친수 개수 / An,1 -> n자리 1로 끝나는 이친수 개수    
+An+1,0 = An,0 + An,1    
+An+1,1 = An,0    
+이다.

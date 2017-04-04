@@ -73,3 +73,13 @@ https://www.acmicpc.net/problem/2193
 An+1,0 = An,0 + An,1    
 An+1,1 = An,0    
 이다.
+
+#### 4.4-dp-basis/11048-moving
+https://www.acmicpc.net/problem/11048    
+bfs로 풀어보았더니 메모리 초과가 나온다. (bfs.cpp) 큐가 터진 듯 하다.
+
+#### 4.4-dp-basis/2225-sum-decomp
+https://www.acmicpc.net/problem/2225    
+dp로 풀 되, 수가 너무 커서 산술 오버플로가 날 수 있으므로 중간중간에 모듈러 연산을 해 주어야 한다.    
+점화식으로 푼다. A(i,j) => i개 수를 더해서 j를 만들 수 있는 경우의 수    
+A(i,j) = A(i-1,j) + A(i-1,j-1) + ... + A(i-1, 0);임을 이용한다.

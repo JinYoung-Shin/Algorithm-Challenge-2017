@@ -88,3 +88,8 @@ A(i,j) = A(i-1,j) + A(i-1,j-1) + ... + A(i-1, 0);임을 이용한다.
 https://www.acmicpc.net/problem/11066    
 greedy로 풀려고 했으나, 한글 문제 내용에 인접한 챕터만 합칠 수 있다는 내용이 빠져서 잘못된 접근을 하였다. greedy접근은 모두 오답.    
 dp.cpp에서 dp의 관점으로 풀었다. 기저사례를 잘못 지정하여 또 해맸으나 결국 정답 나옴.
+
+#### 4.5-dfs-all-case/1759-mk-crypto
+https://www.acmicpc.net/problem/1759    
+dfs를 이용하여 모든 케이스를 다 탐색한다.    
+자음과 모음 개수 체크하는 조건을 잘 확인해야 한다.

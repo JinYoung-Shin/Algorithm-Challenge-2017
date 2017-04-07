@@ -97,3 +97,9 @@ dfs를 이용하여 모든 케이스를 다 탐색한다.
 #### 4.6-dp-mid/5557-1st-grade
 https://www.acmicpc.net/problem/5557    
 dp를 이용하여 풀었다.
+
+#### 4.7-dp-bitmask/1562-stair-num
+https://www.acmicpc.net/problem/1562    
+비트마스크를 이용한 dp를 사용해서 풀었다.    
+마지막에 정답을 구할 때, 다 구한 뒤 mod 연산을 제대로 안 해줘서 많이 해맸다 ㅠㅠ    
+잘 확인할것!

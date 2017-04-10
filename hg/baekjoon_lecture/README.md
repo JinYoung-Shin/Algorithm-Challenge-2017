@@ -116,3 +116,7 @@ https://www.acmicpc.net/problem/1504
 특정한 최단 경로 구하기 문제. 다익스트라 알고리즘을 조금 활용하면 된다.    
 1->a->b->n 의 경우와 1->b->a->n의 경우를 따져서 둘 중 작은 값을 취하면 된다.    
 다만, 중간에 갈 수 없는 경우가 있을 수 있으므로 해당 부분을 잘 처리해야한다.
+
+#### 4.10-shortest-path-algorithm/1753-shortest-path
+https://www.acmicpc.net/problem/1753    
+해당 시작점에서 다익스트라 알고리즘을 수행한 뒤, 각 vertex별로 거리값을 출력하면 된다.

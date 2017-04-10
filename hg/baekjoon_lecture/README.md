@@ -103,3 +103,16 @@ https://www.acmicpc.net/problem/1562
 비트마스크를 이용한 dp를 사용해서 풀었다.    
 마지막에 정답을 구할 때, 다 구한 뒤 mod 연산을 제대로 안 해줘서 많이 해맸다 ㅠㅠ    
 잘 확인할것!
+
+#### 4.10-shortest-path-algorithm/1916-dijkstra
+https://www.acmicpc.net/problem/1916    
+최소비용 구하기 문제. 대놓고 다익스트라 최단거리 알고리즘 문제이다.    
+주의할 점은 STL의 priority_queue를 사용할 경우, 최소값 코스트를 뿜은 우선순위 큐를 만들어야하는데    
+선언 시 세번째 인자로 greater를 넣어줘야 한다는 점!    
+dijkstra.cpp는 다익스트라 최단거리 알고리즘으로 푼 코드이다.
+
+#### 4.10-shortest-path-algorithm/1504-specific-shortest-path
+https://www.acmicpc.net/problem/1504    
+특정한 최단 경로 구하기 문제. 다익스트라 알고리즘을 조금 활용하면 된다.    
+1->a->b->n 의 경우와 1->b->a->n의 경우를 따져서 둘 중 작은 값을 취하면 된다.    
+다만, 중간에 갈 수 없는 경우가 있을 수 있으므로 해당 부분을 잘 처리해야한다.

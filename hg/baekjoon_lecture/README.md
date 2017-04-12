@@ -120,3 +120,7 @@ https://www.acmicpc.net/problem/1504
 #### 4.10-shortest-path-algorithm/1753-shortest-path
 https://www.acmicpc.net/problem/1753    
 해당 시작점에서 다익스트라 알고리즘을 수행한 뒤, 각 vertex별로 거리값을 출력하면 된다.
+
+#### 4.12-codeground-1/01-select-number
+https://www.codeground.org/practice/practiceProbView.do?probId=1    
+C++ stl SET을 이용하거나, XOR의 성질을 이용하여 풀면 된다.

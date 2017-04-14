@@ -126,13 +126,14 @@ https://www.codeground.org/practice/practiceProbView.do?probId=1
 C++ stl SET을 이용하거나, XOR의 성질을 이용하여 풀면 된다.
 
 #### 4.13-codeground-2/04-3n-plus-1
-https://www.codeground.org/practice/practiceProbView.do?probId=25
+https://www.codeground.org/practice/practiceProbView.do?probId=25    
 unsigned long long int를 사용하지 않으면 정답 처리를 받을 수 없다. 유의할 것!    
 모든 케이스를 백트래킹으로 찾아도 케이스가 많지 않으므로 그렇게 처리하면 된다. 컷팅때문에 2^64만큼은 나오지 않음.
 
 #### 4.13-codeground-2/07-kim
 https://www.codeground.org/practice/practiceProbView.do?probId=44    
 Indirect graph에서 cycle을 찾는 문제로 간주했는데, 아닌 반례가 존재한다.    
-따라서 cycke\_chk.cpp는 60점, gfg.cpp는 70점을 받는다.(만점이 아니야 ㅠㅠ)    
+따라서 cycle\_chk.cpp는 60점, gfg.cpp는 70점을 받는다.(만점이 아니야 ㅠㅠ)    
+gfg는 geeksforgeeks에 있는 알고리즘을 그대로 가져다 쓴 경우이다.    
 cycle 찾는 알고리즘은 geeksforgeeks에서 참고함. <[링크](http://www.geeksforgeeks.org/detect-cycle-undirected-graph/)>    
 따라서 다른 정답을 찾아봐야한다.

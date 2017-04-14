@@ -124,3 +124,8 @@ https://www.acmicpc.net/problem/1753
 #### 4.12-codeground-1/01-select-number
 https://www.codeground.org/practice/practiceProbView.do?probId=1    
 C++ stl SET을 이용하거나, XOR의 성질을 이용하여 풀면 된다.
+
+#### 4.13-codeground-2/04-3n-plus-1
+https://www.codeground.org/practice/practiceProbView.do?probId=25
+unsigned long long int를 사용하지 않으면 정답 처리를 받을 수 없다. 유의할 것!    
+모든 케이스를 백트래킹으로 찾아도 케이스가 많지 않으므로 그렇게 처리하면 된다. 컷팅때문에 2^64만큼은 나오지 않음.

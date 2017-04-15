@@ -94,6 +94,11 @@ https://www.acmicpc.net/problem/1759
 dfs를 이용하여 모든 케이스를 다 탐색한다.    
 자음과 모음 개수 체크하는 조건을 잘 확인해야 한다.
 
+#### 4.5-dfs-all-case/1182-subset-sum
+https://www.acmicpc.net/problem/1182    
+dfs를 이용하여 모든 케이스를 다 탐색한다.    
+공집합인 경우를 빼야하므로, S가 0이면 하나를 빼준다.
+
 #### 4.6-dp-mid/5557-1st-grade
 https://www.acmicpc.net/problem/5557    
 dp를 이용하여 풀었다.

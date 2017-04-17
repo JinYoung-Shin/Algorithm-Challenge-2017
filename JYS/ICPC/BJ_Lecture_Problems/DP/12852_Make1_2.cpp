@@ -18,20 +18,21 @@ int main() {
 		if(i%2 == 0) {
 			if(DP[i] > DP[i/2]+1) {
 				DP[i] = DP[i/2]+1;
-				temp[i] = 1/2;
+				temp[i] = 0.5;
 			}
 		}
 		if(i%3 == 0) {
 			if(DP[i] > DP[i/3]+1) {
 				DP[i] = DP[i/3]+1;
-				temp[i] = 1/3;
+				temp[i] = (float)1/3;
 			}
 		}
 	}
 	
 	printf("%d\n", DP[N]);
-	
-	for(int i = 0; i < DP[N]; i++) {
+	int tempN;
+	tempN = N;
+	for(int i = 0; i < DP[tempN]; i++) {
 		printf("%d ", N);
 		if(temp[N] == 1) {
 			N = N - 1;

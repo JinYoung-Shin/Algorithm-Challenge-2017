@@ -1,29 +1,31 @@
-#include <iostream>
+//
+//  main.cpp
+//  icpc
+//
+//  Created by Spiritsensor on 2017. 5. 7.
+//  Copyright © 2017년 JYS. All rights reserved.
+//
 #include <cstdio>
+#include <iostream>
 #include <algorithm>
 
 using namespace std;
 
-int N;
-
+int n, d[100010];
 int arr[100010];
-int DP[100010];
-
-int _Max = 0;
+long long _Max = -99999999;
 
 int main() {
-	scanf("%d", &N);
-	for(int i = 1; i <= N; i++) {
-		scanf("%d", &arr[i]);
-	}
-	
-	DP[1] = arr[1];
-	for(int i = 2; i <= N; i++) {
-		DP[i] = max(DP[i-1] + arr[i], arr[i]);
-		if(DP[i] > _Max){
-			_Max = DP[i];
-		}
-	}
-	printf("%d\n", _Max);
-	return 0;
+    scanf("%d", &n);
+    for(int i = 1; i <= n; i++) {
+        scanf("%d", &arr[i]);
+    }
+    d[1] = arr[1];
+    _Max = arr[1]; // Should start _Max with first val...
+    for(int i = 2; i <= n; i++) {
+        d[i] = max(d[i-1]+arr[i], arr[i]);
+        if(d[i] > _Max) _Max = d[i];
+    }
+    printf("%lld\n", _Max);
+    return 0;
 }

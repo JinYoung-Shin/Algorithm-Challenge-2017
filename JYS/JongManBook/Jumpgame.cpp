@@ -14,7 +14,7 @@ int check_arrive(int x, int y) {
 	if(x > n || y > n) return 0;
 	if(x == n && y == n) return 1;
 	
-	int& ret = cache[x][y];
+	int& ret = cache[x][y]; // 이해가 잘 안되네...
 	if(ret != -1) {
 		return ret;
 	}

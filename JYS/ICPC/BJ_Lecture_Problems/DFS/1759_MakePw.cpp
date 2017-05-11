@@ -1,19 +1,18 @@
 #include <cstdio>
 #include <iostream>
-#include <vector>
 #include <algorithm>
 #include <cstring>
+#include <vector>
 
 using namespace std;
 
-int L, C;
-char arr[20];
-char cur[20];
-int mo = 0, ja = 0;
+int n, m;
+vector<char> cur;
 
-int check(string &pw) {
-	for(int i = 0; i < pw.length(); i++) {
-		if(pw[i] == 'a' || 'e' || 'i' || 'o' || 'u') {
+bool check(vector<char> &pw) {
+	int mo = 0, ja = 0;
+	for(vector<char>::iterator it = pw.begin(); it < pw.end(); it++) {
+		if(*it == 'a' ||  *it == 'e' || *it == 'i' || *it == 'o' || *it == 'u') {
 			mo++;
 		} else {
 			ja++;
@@ -22,24 +21,29 @@ int check(string &pw) {
 	return mo >= 1 && ja >=2;
 }
 
-void go(char &arr, string pw, int i) {
-	if(pw.length() == L) {
-		if(check(pw)) {
-			cout << pw;
-			printf("\n");
+void go(vector<char> &a, vector<char> &pw, int i) {	
+	if(pw.size() == n) {
+		if(check(pw) == true) {
+			for(vector<char>::iterator it = pw.begin(); it < pw.end(); it++) {
+				cout << *it;
+			}
+			cout << endl;
 		}
 		return;
 	}
-//	go(arr, pw + arr+i, i+1);
-//	go(arr, pw, i+1);
+	if(i == a.size()) return;
+	pw.push_back(a[i]);
+	go(a, pw, i+1);
+	pw.pop_back();
+	go(a, pw, i+1);
 }
 int main() {
-	scanf("%d %d", &L, &C);
-	for(int i = 0; i < C; i++) {
-		scanf("%c", &arr[i]);
+	scanf("%d %d", &n, &m);
+	vector<char> arr(m);
+	for(int i = 0; i < m; i++) {
+		cin >> arr[i];
 	}
-	sort(arr, arr+20);
-	go(arr, "", 1);
-	
+	sort(arr.begin(), arr.end());
+	go(arr, cur, 0);
 	return 0;
 }

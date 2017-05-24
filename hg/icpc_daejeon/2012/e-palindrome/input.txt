@@ -1,0 +1,11 @@
+2
+5
+aaba
+ba
+ababa
+bbaa
+baaba
+3
+abc
+bcd
+cde

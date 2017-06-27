@@ -11,6 +11,10 @@ ids.cpp는 Iterative-deepending depth-first-search로 푼 코드이다. 시간 �
 new_bfs.cpp는 bfs를 malloc을 사용하지 않고 푼 코드이나 똑같이 메모리 초과로 오답이다 ㅠㅠ    
 bfs_with_memo.cpp는 bfs에 visited node를 flag로 기록한 방식인데... 왜 이걸로는 풀리는지 좀더 연구가 필요할듯 하다 ㅠㅠ(정답)
 
+#### 4.3-bfs/12851-catch-that-cow-2
+https://www.acmicpc.net/problem/12851    
+숨바꼭질 두번째 문제이다. 최적해의 개수도 같이 구해야하는데, 범위를 [0, MAX]로 주어야 한다는 점을 간과해서 꽤나 해맸다. 왜그런거지..
+
 #### 4.3-bfs/13549-catch-that-cow-3
 https://www.acmicpc.net/problem/13549    
 4월 3일 bfs 강의 세번째 문제, 숨바꼭질3번 문제이다.    

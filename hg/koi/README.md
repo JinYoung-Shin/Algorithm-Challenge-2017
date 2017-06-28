@@ -37,6 +37,14 @@ https://www.acmicpc.net/problem/1268
 임시반장 정하기 문제    
 brute.cpp는 하나하나 다 세어서 최고값을 구하는 방식으로 푼 풀이법 코드입니다.
 
+#### 2016/e_01_room
+https://www.acmicpc.net/problem/13300    
+방 배정 문제. 그냥 하나하나 개수 샌 뒤 필요한 방 수를 더하면 된다.
+
+#### 2016/e_02_tile
+https://www.acmicpc.net/problem/13301    
+타일 장식물 문제. 가로 세로 길이가 늘어나는 패턴만 찾으면 간단하다.
+
 #### 2016/e_03_resort
 https://www.acmicpc.net/problem/13302    
 리조트 문제    

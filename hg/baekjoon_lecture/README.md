@@ -103,6 +103,10 @@ https://www.acmicpc.net/problem/1182
 dfs를 이용하여 모든 케이스를 다 탐색한다.    
 공집합인 경우를 빼야하므로, S가 0이면 하나를 빼준다.
 
+#### 4.5-dfs-all-case/10971-tsp2
+https://www.acmicpc.net/problem/10971    
+외판원순회2 문제이다. dfs로 풀수 있도록 N값이 작다. 0이면 갈 수 없다는 조건을 빠져먹어서 한번 틀렸다.
+
 #### 4.6-dp-mid/5557-1st-grade
 https://www.acmicpc.net/problem/5557    
 dp를 이용하여 풀었다.

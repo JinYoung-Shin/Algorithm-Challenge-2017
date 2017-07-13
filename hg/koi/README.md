@@ -49,3 +49,12 @@ https://www.acmicpc.net/problem/13301
 https://www.acmicpc.net/problem/13302    
 리조트 문제    
 dp.cpp 는 동적 프로그래밍(Dynamic Programming)으로 푼 풀이법이다.
+
+#### 2016/e_04_barrier
+https://www.acmicpc.net/problem/13303    
+장애물 경기 문제. 공식 사이트에 나와있는 풀이법으로 풀었다.    
+https://www.digitalculture.or.kr/koi/selectOlymPiadDissentList.do    
+
+#### 2015/e_01_apple
+https://www.acmicpc.net/problem/10833    
+사과 세기 문제. 그냥 계산하면 된다. apple수를 사람수로 나누면 1인당 지급되는 사과수가 된다.

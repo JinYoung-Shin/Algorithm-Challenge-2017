@@ -39,3 +39,13 @@ greedy method를 따라서 reorder를 실제로 실시하지 않고, 알아서 o
 ### contest-421-div2/B.angle
 정N각형에서 나타날 수 있는 각도에 대한 패턴을 파악하면 된다.    
 숫자처리 부분을 잘 못 해주어서 오답이 계속 났었다.
+
+### contest-424-div2/A.unimodal
+dfa만들어서 풀면 된다. transition만 적당히 설계하면 됨. prev값을 업데이트 해주는 것을 까먹어서 틀렸다.. 지금은 수정하여 맞춤
+
+### contest-424-div2/B.keyboard
+mapping 해주는 table을 만들어서 하나하나 1-to-1 translate 해주면 된다.
+
+### contest-424-div2/C.jury_mark
+생길 수 있는 값들을, 초기값을 임의로 두고 offset만 저장을 한다. 그리고 맵핑이 될 것들을 bias를 주어서 하나하나 모든 케이스를 고려한다.   
+exhaustive search이다. 모든 케이스를 다 따진다.

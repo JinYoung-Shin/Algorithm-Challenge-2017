@@ -62,3 +62,9 @@ https://www.acmicpc.net/problem/10833
 #### 2015/e_02_belt
 https://www.acmicpc.net/problem/10834    
 바퀴 회전수 문제. 정수로 떨어지게 되어있으므로 그냥 계산하면 된다.
+
+#### 2015/e_04_bee
+https://www.acmicpc.net/problem/10836    
+dfs로는 Time out이 난다. 그러므로 더 좋은 성능의 방법을 찾아봐야 한다.    
+숫자가 감소하지 않는 방향이라고 했으니 규칙을 잘 보면, 왼쪽 끝과 위쪽 끝을 제외하고 내부쪽은 결과적으로 위쪽 값과 같은 값을 갖게 된다.    
+이러한 규칙을 이용하면 O(MN)으로 해결 가능

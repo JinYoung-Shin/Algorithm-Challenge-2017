@@ -58,3 +58,7 @@ https://www.digitalculture.or.kr/koi/selectOlymPiadDissentList.do
 #### 2015/e_01_apple
 https://www.acmicpc.net/problem/10833    
 사과 세기 문제. 그냥 계산하면 된다. apple수를 사람수로 나누면 1인당 지급되는 사과수가 된다.
+
+#### 2015/e_02_belt
+https://www.acmicpc.net/problem/10834    
+바퀴 회전수 문제. 정수로 떨어지게 되어있으므로 그냥 계산하면 된다.

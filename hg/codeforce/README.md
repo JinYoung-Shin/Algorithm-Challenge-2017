@@ -49,3 +49,8 @@ mapping 해주는 table을 만들어서 하나하나 1-to-1 translate 해주면 
 ### contest-424-div2/C.jury_mark
 생길 수 있는 값들을, 초기값을 임의로 두고 offset만 저장을 한다. 그리고 맵핑이 될 것들을 bias를 주어서 하나하나 모든 케이스를 고려한다.   
 exhaustive search이다. 모든 케이스를 다 따진다.
+
+### contest-426-div2/A.useless_toy
+돌리는것을 모듈러 연산으로 처리하면 된다. 마이너스 값일 경우 음수가 나오는 것은 4의 배수를 더해주는 방법을 사용함.
+### contest-426-div2/B.festival_evening
+시작과 끝을 세서, 최대로 열린 문의 수를 센 뒤 가드 수와 비교하면 된다. 시작할때 끝도 체크를 안해줘서 계속틀렸었음.

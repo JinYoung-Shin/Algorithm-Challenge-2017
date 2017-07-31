@@ -60,3 +60,7 @@ exhaustive search이다. 모든 케이스를 다 따진다.
 
 ### contest-427-div2/B.number
 한땀한땀 새보면된다. digit 숫자개수별로 새서, 걔가 9가될때 얼만큼 add가 될 수 있는지를 계산하면 됨.
+
+### contest-427-div2/C.stars
+한땀 한땀 세보는 코드가 calc.cpp이다. 근데 이거는 timeout이 난다.    
+따라서 누적합을 적용한 accum.cpp으로 풀었다. 고로 정답이다. 이거는 그래픽스에서 나왔던 개념인데, 정확하게 어디서 나왔는지는 기억이 안남..

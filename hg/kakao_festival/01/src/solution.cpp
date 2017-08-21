@@ -11,10 +11,8 @@ pair<int, int> find_one(int m, int n, vector<vector<int>>& picture) {
     pair<int, int> pos;
     pos.first = -1;
     pos.second = -1;
-	// printf("flag 1-2\n");
     for (int i=0; i < m; i++) {
         for (int j=0; j < n; j++) {
-			// printf("(%d, %d)\n", i, j);
             if (picture[i][j] != 0) {
                 pos.first = i;
                 pos.second = j;
@@ -61,35 +59,23 @@ int get_size(int src_x, int src_y, int max_x, int max_y, vector<vector<int>>& pi
     return size;
 }
 // 전역 변수를 정의할 경우 함수 내에 초기화 코드를 꼭 작성해주세요.
-vector<int> solution(int m, int n, vector<vector<int>>& picture) {
+vector<int> solution(int m, int n, vector<vector<int>> picture) {
     int number_of_area = 0;
     int max_size_of_one_area = 0;
 	
-	///////
-	// for (int i=0; i < m; i++) {
-	// 	for (int j=0; j < n; j++) {
-	// 		printf("%d ", picture[i][j]);
-	// 	}
-	// 	printf("\n");
-	// }
-    //////
     pair<int, int> pos;
     while(true) {
-		// printf("flag1\n");
         pos = find_one(m, n, picture);
-		// printf("flag2\n");
         if (pos.first != -1 && pos.second != -1) {
             int current_size = get_size(pos.first, pos.second, m, n, picture);
 			if (current_size != 0) {
             	number_of_area++;
             	max_size_of_one_area = max(max_size_of_one_area, current_size);
 			}
-			// printf("current size: %d\n", current_size);
         } else {
             break;
         }
     };
-    //////
     vector<int> answer(2);
     answer[0] = number_of_area;
     answer[1] = max_size_of_one_area;

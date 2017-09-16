@@ -1,0 +1,5 @@
+2 mistakes.
+
+1) Corner case. Didn't think about k = 0 case.
+2) Integer range. Maximum input is 10^9.
+   So I must use unsigned int or long long int type instead of int.

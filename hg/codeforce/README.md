@@ -107,3 +107,19 @@ pair<값, index> 로 만든 뒤 정렬을 해서, 정렬 하기 전과 정렬 �
 
 ## contest-432-div2/C
 모든 경우를 다 구해서 내적의 값이 음수가 아니면 실패이다. cosine 그래프를 그려보면 대충 보인다. 선형대수학과 관련이 깊은 문제이다.
+
+## contest-434-div2/B
+n값이 작기 때문에 완전탐색을 해도 된다. 층 별로 있는 flat의 수를 모두 고려해서, 만족하는 경우에 한해서 해당 층의 번호가 일정한 경우 정답, 일정하지 않는 경우 오답이다.
+
+# icpc-2017-2018
+2017-2018 ACM-ICPC, NEERC, Southern Subregional Contest, qualification stage (Online Mirror, ACM-ICPC Rules, Teams Preferred)이다.    
+http://codeforces.com/contest/847
+
+## icpc-2017-2018/A
+링크드 리스트를 dfs방식으로 모두 찾은 뒤, 각각의 리스트들의 꼬리와 머리를 이어주면 된다.
+
+## icpc-2017-2018/G
+개수 모두 더해서 최대값을 출력하면 되는 문제. 간단하다
+
+## icpc-2017-2018/M
+등차수열인지 아닌지 확인해서 조건에 맞게 출력하면 된다. 간단하다.

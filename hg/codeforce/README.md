@@ -111,6 +111,9 @@ pair<값, index> 로 만든 뒤 정렬을 해서, 정렬 하기 전과 정렬 �
 ## contest-434-div2/B
 n값이 작기 때문에 완전탐색을 해도 된다. 층 별로 있는 flat의 수를 모두 고려해서, 만족하는 경우에 한해서 해당 층의 번호가 일정한 경우 정답, 일정하지 않는 경우 오답이다.
 
+## contest-434-div2/D
+unordered_map을 사용하면 time out이 해소된다.
+
 # icpc-2017-2018
 2017-2018 ACM-ICPC, NEERC, Southern Subregional Contest, qualification stage (Online Mirror, ACM-ICPC Rules, Teams Preferred)이다.    
 http://codeforces.com/contest/847

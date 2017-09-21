@@ -73,7 +73,6 @@ int find_cost(int start_day, int num_coupon) {
 
 		}
 		cost[start_day][num_coupon] = min_cost;
-		// printf("(%d, %d) -> (%d, %d)\t", start_day, num_coupon, a, b);
 		return min_cost;
 	} else {
 		count_mem++;
@@ -93,19 +92,12 @@ int main() {
 	for (int i=0;i<absent_day; i++) {
 		scanf("%d ", &temp);
 		holiday.push_back(temp);
-		// cout << temp << " ";
 	}
 	
-	// cout << endl << "length:" << holiday.size() << endl;
 	for (int i=0;i<absent_day; i++) {
-		//cout << holiday[i]<< endl;
 		day[holiday[i]] = false;
 	}
-	// for (int i=1;i<=total_day;i++) {
-	// 	cout << day[i] << " ";
-	// }
 	
 	answer = find_cost(1, 0);
 	cout << answer;
-	// cout << endl << "answer: " << answer << endl << "count: " << count << endl << "count_mem: " << count_mem << endl;
 }

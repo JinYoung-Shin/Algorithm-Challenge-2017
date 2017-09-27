@@ -63,6 +63,10 @@ https://www.acmicpc.net/problem/10833
 https://www.acmicpc.net/problem/10834    
 바퀴 회전수 문제. 정수로 떨어지게 되어있으므로 그냥 계산하면 된다.
 
+#### 2015/e_03_card
+https://www.acmicpc.net/problem/10835    
+완전탐색을 하면 시간 초과가 난다. O(3^n)이 된다. 하지만 중복탐색되는 부분을 줄이면, 즉 Memoziation원리를 적용한 Dynamic programming으로 풀 시에는 나타나는 좀더 효율적으로 풀 수 있다. dp\[왼쪽남은카드수\]\[오른쪽남은카드수\]로 한다면 최악의경우 O(n^2)이므로 2000^2 = 400만으로 1초안에 풀 수 있다.
+
 #### 2015/e_04_bee
 https://www.acmicpc.net/problem/10836    
 dfs로는 Time out이 난다. 그러므로 더 좋은 성능의 방법을 찾아봐야 한다.    

@@ -72,3 +72,11 @@ https://www.acmicpc.net/problem/10836
 dfs로는 Time out이 난다. 그러므로 더 좋은 성능의 방법을 찾아봐야 한다.    
 숫자가 감소하지 않는 방향이라고 했으니 규칙을 잘 보면, 왼쪽 끝과 위쪽 끝을 제외하고 내부쪽은 결과적으로 위쪽 값과 같은 값을 갖게 된다.    
 이러한 규칙을 이용하면 O(MN)으로 해결 가능
+
+#### 2014/e_01_microsave
+https://www.acmicpc.net/problem/10162    
+모듈러 연산과 나눗셈 연산을 이용하면 간단하게 구할 수 있다.
+
+#### 2014/e_02_paper
+https://www.acmicpc.net/problem/10163    
+N값이 작으므로, 표로 덮는 부분을 표시하고 개수를 세면 된다.

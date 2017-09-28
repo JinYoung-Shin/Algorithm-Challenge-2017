@@ -80,3 +80,7 @@ https://www.acmicpc.net/problem/10162
 #### 2014/e_02_paper
 https://www.acmicpc.net/problem/10163    
 N값이 작으므로, 표로 덮는 부분을 표시하고 개수를 세면 된다.
+
+#### 2014/e_03_grid_path
+https://www.acmicpc.net/problem/10164    
+dp로 풀 수 있다. k값이 하나 뿐 이므로, 시작점에서 k위치까지 -> k위치에서 최종 도착지까지 의 경로를 고려하면 된다. 1부터 숫자를 세므로 이에따른 오류만 조심하면 된다.

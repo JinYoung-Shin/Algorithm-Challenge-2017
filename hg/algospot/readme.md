@@ -16,7 +16,9 @@ main.cpp는 c++ stl을 사용하여 summation 방식을 사용하여 풀이하�
 
 https://algospot.com/judge/problem/read/BOGGLE
 
-brute.cpp는 brute-force 방식으로 문제 풀이한 코드이다. 제출하면 시간제한으로 오답 처리된다.
+brute.cpp는 brute-force 방식으로 문제 풀이한 코드이다. 제출하면 시간제한으로 오답 처리된다.    
+
+memoization.cpp는 brute-force방식에서 이미 검사한 부분을 메모하는 dynamic programming 의 원리를 이용하여 푼 소스코드이다. 정답 처리가 나온다. 방식은, 3차원 dp인데, \[x\]\[y\]\[len\]로 저장을 하며, 시작하는 좌표와, 해당 단어의 몇번째 index의 단어부터 만족하는지 아닌지를 bool 형태로 저장한다.
 
 #### 03_picnic
 https://algospot.com/judge/problem/read/PICNIC    

@@ -1,4 +1,4 @@
-### KOI
+### baekjoon_lecture
 https://www.acmicpc.net/lecture/56    
 위 페이지에서 나타난 문제들을 풀이한 소스코드들이다.
 (백준 마지막 강의)
@@ -138,19 +138,27 @@ https://www.acmicpc.net/problem/1504
 https://www.acmicpc.net/problem/1753    
 해당 시작점에서 다익스트라 알고리즘을 수행한 뒤, 각 vertex별로 거리값을 출력하면 된다.
 
-#### 4.12-codeground-1/01-select-number
+#### 4.13-codeground-1/01-select-number
 https://www.codeground.org/practice/practiceProbView.do?probId=1    
 C++ stl SET을 이용하거나, XOR의 성질을 이용하여 풀면 된다.
 
-#### 4.13-codeground-2/04-3n-plus-1
+#### 4.14-codeground-2/04-3n-plus-1
 https://www.codeground.org/practice/practiceProbView.do?probId=25    
 unsigned long long int를 사용하지 않으면 정답 처리를 받을 수 없다. 유의할 것!    
 모든 케이스를 백트래킹으로 찾아도 케이스가 많지 않으므로 그렇게 처리하면 된다. 컷팅때문에 2^64만큼은 나오지 않음.
 
-#### 4.13-codeground-2/07-kim
+#### 4.14-codeground-2/07-kim
 https://www.codeground.org/practice/practiceProbView.do?probId=44    
 Indirect graph에서 cycle을 찾는 문제로 간주했는데, 아닌 반례가 존재한다.    
 따라서 cycle\_chk.cpp는 60점, gfg.cpp는 70점을 받는다.(만점이 아니야 ㅠㅠ)    
 gfg는 geeksforgeeks에 있는 알고리즘을 그대로 가져다 쓴 경우이다.    
 cycle 찾는 알고리즘은 geeksforgeeks에서 참고함. <[링크](http://www.geeksforgeeks.org/detect-cycle-undirected-graph/)>    
 따라서 다른 정답을 찾아봐야한다.
+
+#### 4.12-segment-tree/2042-segment-sum
+https://www.acmicpc.net/problem/2042    
+세그먼트 트리를 쓰는 기본 문제이다. 세그먼트 트리와, 팬윅트리를 이용해서 풀어보았다. 관련된 설명 글이 꽤 많아서 좋다.    
+[백준저지 세그먼트트리 설명글](https://www.acmicpc.net/blog/view/9)    
+[GeeksforGeeks 세그먼트 트리 설명글](http://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)    
+[GeeksforGeeks 팬윅트리\(바이너리 인덱스트 트리\) 설명글](http://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)    
+[탑코더 Binary Indexed Tree 설명글](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/)

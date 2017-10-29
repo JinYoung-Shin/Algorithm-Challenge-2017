@@ -5,7 +5,7 @@ if [[ ! -e ./bin ]]; then
     mkdir ./bin
 fi
 
-g++ src/$2.cpp -o bin/$2.out -std=c++11 -g
+g++ src/$2.cpp -o bin/$2.out -std=c++11 -g -Wall
 
 COMPILER_RET_STATUS=$?
 if [ "$COMPILER_RET_STATUS" != "0" ]

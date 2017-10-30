@@ -162,3 +162,6 @@ https://www.acmicpc.net/problem/2042
 [GeeksforGeeks 세그먼트 트리 설명글](http://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)    
 [GeeksforGeeks 팬윅트리\(바이너리 인덱스트 트리\) 설명글](http://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)    
 [탑코더 Binary Indexed Tree 설명글](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/)
+
+#### etc/14719-rain-water
+brute force로 모든 셀을 순회해서, black 사이의 거리만큼 더하면 된다.

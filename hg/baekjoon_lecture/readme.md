@@ -97,6 +97,10 @@ dp.cpp에서 dp의 관점으로 풀었다. 기저사례를 잘못 지정하여 �
 https://www.acmicpc.net/problem/1912    
 dp[i]를 i번째 항의 합으로 끝나는 연속 합의 최대값으로 정의하면 된다. 최소 1개 이상의 항을 선택해야 한다는 조건을 잊으면 안된다.
 
+#### 4.4-dp-basis/11048-move
+https://www.acmicpc.net/problem/11048    
+이동하기. dp로 간단한 문제임.
+
 #### 4.5-dfs-all-case/1759-mk-crypto
 https://www.acmicpc.net/problem/1759    
 dfs를 이용하여 모든 케이스를 다 탐색한다.    

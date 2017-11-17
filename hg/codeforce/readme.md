@@ -204,3 +204,14 @@ http://codeforces.com/contest/883 의 문제들이다.
 
 ## educational-31/C
 조금 생각을 해야하는 문제이다. 1번 2번 조건 때문에 줄줄이 Linked list와 같은 형태를 띠게 되는데, graph 관점으로 보면 여러개의 component로 나누어진다고 볼 수 있다. 즉, 연결된 덩어리가 여러개 생길 수 있다. 그리고 각각의 component는 무조건 cycle의 형태를 띠는데 1번 2번 조건에 귀류법을 통해 증명할 수 있다. dfs로 각각의 component 크기를 다 구한 뒤, 최대 2개의 연결을 바꿀 수 있으므로, 가장 큰 두개의 component를 합친다. 그리고 각각의 컴포넌트의 원소개수를 제곱하여 더하면 정답이다.
+
+## contest-446-div2/A
+쉬운문제이다. a 수열 모두 다 더한값과, b수열 중 가장 큰 2개값 더한거랑 비교해서 b가 더 크거나 같으면 YES 아니면 NO이다.
+
+## contest-446-div2/B
+왜 자꾸 cpp로 짠 코드가 Time limit exceed가 뜨는가 싶었더니 IO 문제였다. 즉 입력값 받는데 오래 걸려서 그런것이다. 다음 코드를 추가해주니 정답이 되었다. 파이썬으로도 풀어보았다.
+```
+ios_base :: sync_with_stdio(false);
+cin.tie(NULL);
+cout.tie(NULL);
+```

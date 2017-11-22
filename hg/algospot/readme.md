@@ -33,3 +33,7 @@ brute_copy0.cpp는 혼자서 짜 보려다가 실패한 소스코드이다.
 #### 05_clocksync
 https://algospot.com/judge/problem/read/CLOCKSYNC    
 책에서 낸 아이디어와 같이 완전탐색을 실시하였다. 4^10=2^20=1024^2는 10^6에 근사하며, 이는 100만으로 1억인 10^8보다 100배 작다. 할만했다. 실행시간은 2초로 꽤 긴편이었다.
+
+#### 06_quadtree
+https://algospot.com/judge/problem/read/QUADTREE    
+쿼드트리 트리 자료구조를 직접 구현해서, 출력 순서를 1,2,3,4 가 아닌 3,4,1,2 로 하면 된다.

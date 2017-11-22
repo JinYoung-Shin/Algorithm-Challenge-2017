@@ -29,3 +29,7 @@ brute.cpp는 모든 케이스를 다 해보는 방식으로 푼 소스코드이�
 https://algospot.com/judge/problem/read/BOARDCOVER    
 brute.cpp는 모든 케이스를 다 해보는 방식이며, 책을 참조한 소스코드이다. 뭔가 간단해보이지만, 직접 아이디어를 생각해내려면 생각보다 꽤나 어려운 문제였다. 그리고 블록을 놓는 기준도 잘 정해야 한다.    
 brute_copy0.cpp는 혼자서 짜 보려다가 실패한 소스코드이다.
+
+#### 05_clocksync
+https://algospot.com/judge/problem/read/CLOCKSYNC    
+책에서 낸 아이디어와 같이 완전탐색을 실시하였다. 4^10=2^20=1024^2는 10^6에 근사하며, 이는 100만으로 1억인 10^8보다 100배 작다. 할만했다. 실행시간은 2초로 꽤 긴편이었다.

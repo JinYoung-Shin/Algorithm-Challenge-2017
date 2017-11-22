@@ -31,6 +31,7 @@ elif [[ -f "./src/$2.cpp" ]]; then
 	do
 		echo "${var}: 입력 케이스 ---------"
 		bin/$2.out < ${var}
+		# /usr/bin/time bin/$2.out < ${var}
 		echo "----------------------------------------"
 		echo ""
 	done

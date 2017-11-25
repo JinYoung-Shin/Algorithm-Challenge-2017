@@ -215,3 +215,12 @@ ios_base :: sync_with_stdio(false);
 cin.tie(NULL);
 cout.tie(NULL);
 ```
+
+## educational-33/A
+걍 시뮬레이션 하면 되는 문제
+
+## educational-33/B
+파이썬으로 곱해버리면 되는 문제
+
+## educational-33/C
+dfs로 찾아서 최소값들만 엮어서 더하면 된다. INF값을 너무 작게 해서(10^9보다 작은 987654321) 틀려버렷다.. 젠장 ㅠ

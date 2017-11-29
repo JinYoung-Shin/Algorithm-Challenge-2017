@@ -192,3 +192,9 @@ http://blog.eairship.kr/249
 ### etc/11279-max-heap
 http://blog.eairship.kr/249   
 해당 글을 보고 참조하여 구현했다. 소스코드는 참조하지 않고 알고리즘만 참조했다.
+
+### 4.3-bfs/2206-breaking-wall
+벽부수고 이동하기다. dp베이스의 bfs로 풀 수 있다. 3차원 배열을 잘못 선언해서 삽질을 많이 함.
+
+### etc/1076-resistance
+파이썬 딕셔너리로 string을 만든 뒤 정수로 evaluation 해서 풀면 된다.

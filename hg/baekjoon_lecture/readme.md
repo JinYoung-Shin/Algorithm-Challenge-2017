@@ -198,3 +198,6 @@ http://blog.eairship.kr/249
 
 ### etc/1076-resistance
 파이썬 딕셔너리로 string을 만든 뒤 정수로 evaluation 해서 풀면 된다.
+
+### etc/1992-quad-tree
+분할정복으로 풀면 된다. 재귀로 구현하면 생각보다 간단하다.

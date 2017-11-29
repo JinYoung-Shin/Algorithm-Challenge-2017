@@ -201,3 +201,6 @@ http://blog.eairship.kr/249
 
 ### etc/1992-quad-tree
 분할정복으로 풀면 된다. 재귀로 구현하면 생각보다 간단하다.
+
+### etc/14889-start-link
+dfs로 완전탐색을 하면 된다. 재귀로 구현하면 좋다.

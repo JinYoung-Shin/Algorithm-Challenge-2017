@@ -204,3 +204,6 @@ http://blog.eairship.kr/249
 
 ### etc/14889-start-link
 dfs로 완전탐색을 하면 된다. 재귀로 구현하면 좋다.
+
+### etc/11053-longest-increasing-subsequence
+dp_correct.cpp는 맞는 dp이고, dp_wrong.cpp는 틀린 dp다. dp_correct.cpp는 1차원 dp로 dp[i]는 i번째 원소를 마지막으로 하는 최장 부분수열 길이이다.

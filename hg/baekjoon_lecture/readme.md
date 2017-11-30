@@ -207,3 +207,6 @@ dfs로 완전탐색을 하면 된다. 재귀로 구현하면 좋다.
 
 ### etc/11053-longest-increasing-subsequence
 dp_correct.cpp는 맞는 dp이고, dp_wrong.cpp는 틀린 dp다. dp_correct.cpp는 1차원 dp로 dp[i]는 i번째 원소를 마지막으로 하는 최장 부분수열 길이이다.
+
+### etc/1004-little-prince
+기하학 문제이다. 원이 들어왔을 때, 시작점과 도착점이 해당 원에 포함되는지 확인하고, 하나만 포함된 경우 카운트가 1 증가하게 된다.

@@ -210,3 +210,6 @@ dp_correct.cpp는 맞는 dp이고, dp_wrong.cpp는 틀린 dp다. dp_correct.cpp�
 
 ### etc/1004-little-prince
 기하학 문제이다. 원이 들어왔을 때, 시작점과 도착점이 해당 원에 포함되는지 확인하고, 하나만 포함된 경우 카운트가 1 증가하게 된다.
+
+### etc/2751-sorting2
+O(nlgn)의 소팅을 사용하면 풀 수 있는 문제이다. merge_sort.cpp는 머지소트이며 merge_sort(start, end)의 경우 [start, end]의 폐구간을 정렬한다. merge_sort2.cpp의 머지소트인 merge_sort(start, end)의 경우는, [start, end)의 반개구간을 사용한다. border case를 잘 따져야 한다.

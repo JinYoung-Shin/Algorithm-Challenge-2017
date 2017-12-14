@@ -213,3 +213,13 @@ dp_correct.cpp는 맞는 dp이고, dp_wrong.cpp는 틀린 dp다. dp_correct.cpp�
 
 ### etc/2751-sorting2
 O(nlgn)의 소팅을 사용하면 풀 수 있는 문제이다. merge_sort.cpp는 머지소트이며 merge_sort(start, end)의 경우 [start, end]의 폐구간을 정렬한다. merge_sort2.cpp의 머지소트인 merge_sort(start, end)의 경우는, [start, end)의 반개구간을 사용한다. border case를 잘 따져야 한다.
+
+### etc/1874-stack-seqeunce
+언뜻 보면 어려워 보이지만, 가능한 경우만 상황에 따라서 따라가면 된다.    
+문제에서 주어진 수열과, 1부터 증가하는 수열 두개를 비교해가면서 상황에 맞게 스택 연산을 하면된다.    
+1. 두개 값이 같은 경우 push 와 pop을 한번씩 하고 두 수열 다 다음것으로 넘어감    
+2. 주어진 수열이 스택의 top과 같다면 pop하고 주어진 수열만 다음것으로 넘어감.
+3. 두개 값이 다른 경우 push를 한번 하고 1부터 증가하는 수열만 다음것으로 넘어감.
+
+1부터 증가하는 수열이 먼저 끝날 것이기 때문에, 스택에 남은 수를 모두 덤프하면 된다.    
+매치가 안 될 경우 fail이다.

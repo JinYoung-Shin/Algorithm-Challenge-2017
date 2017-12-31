@@ -238,3 +238,6 @@ Circular Doubly Linked List를 이용하면 쉽게 해결할 수 있다. Doubly 
 
 ## etc/1764-unknown
 해시 자료구조를 이용하면 간단하게 해결 가능하다.
+
+## etc/2743-wordlen
+그냥 길이를 재면 된다.

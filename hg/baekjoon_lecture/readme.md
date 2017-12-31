@@ -232,3 +232,6 @@ O(nlgn)의 소팅을 사용하면 풀 수 있는 문제이다. merge_sort.cpp는
 
 ## etc/1158-josephers
 Circular Doubly Linked List를 이용하면 쉽게 해결할 수 있다. Doubly Linked List는 제공하지만, Circular한 부분은 직접 구현했다.
+
+## etc/1406-editor
+링크드 리스트를 자료구조로 가져가면, 삽입, 삭제 시 O(1)로 해결할 수 있다. emplace로 추가하고 erase로 삭제하면 된다.

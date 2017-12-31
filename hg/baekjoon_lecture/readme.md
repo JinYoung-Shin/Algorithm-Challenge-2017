@@ -242,6 +242,9 @@ Circular Doubly Linked List를 이용하면 쉽게 해결할 수 있다. Doubly 
 ## etc/11655-rot13
 13더해서 모듈러하면 된다.
 
+## etc/10820-string-analysis
+C++ getline을 이용하면 된다.
+
 ## etc/2743-wordlen
 그냥 길이를 재면 된다.
 

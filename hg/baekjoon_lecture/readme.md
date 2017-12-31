@@ -226,3 +226,9 @@ O(nlgn)의 소팅을 사용하면 풀 수 있는 문제이다. merge_sort.cpp는
 
 ### etc/2581-prime
 1은 소수가 아니다. 이 부분만 잘 체크하면 된다. 특정수 n이 소수인지 아닌지는 2부터 sqrt(n)까지의 모든 수로 나누어보고 모두 나누어 떨어지지 않으면 소수다. Naive한 소수 판별 알고리즘
+
+## etc/14924-von-neuman-fly
+공식을 적용하면 간단하다.
+
+## etc/1158-josephers
+Circular Doubly Linked List를 이용하면 쉽게 해결할 수 있다. Doubly Linked List는 제공하지만, Circular한 부분은 직접 구현했다.

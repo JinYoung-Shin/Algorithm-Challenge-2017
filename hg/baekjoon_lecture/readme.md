@@ -257,3 +257,6 @@ C++ getline을 이용하면 된다.
 
 ## etc/10808-alphabet-num
 그냥 세면 된다.
+
+## etc/11403-connectivity
+dfs로 탐색하면 된다. 도달가능하다면 visited가 체크될 것이다.

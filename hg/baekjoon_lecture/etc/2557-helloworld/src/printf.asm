@@ -1,11 +1,11 @@
 extern printf
 section .data
-    Str : db "Hello World!",0
+    msg : db "Hello World!", 0xa, 0
         
 section .text
     global main
 main:
-    push Str
+    push msg
     call printf
     add esp, 4
 ret

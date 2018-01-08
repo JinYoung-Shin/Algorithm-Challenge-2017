@@ -37,3 +37,11 @@ https://algospot.com/judge/problem/read/CLOCKSYNC
 #### 06_quadtree
 https://algospot.com/judge/problem/read/QUADTREE    
 쿼드트리 트리 자료구조를 직접 구현해서, 출력 순서를 1,2,3,4 가 아닌 3,4,1,2 로 하면 된다.
+
+#### 07_fence
+https://algospot.com/judge/problem/read/FENCE    
+분할정복을 이용하여 O(NlgN)만에 문제를 해결한다. 왼쪽에서만 포함된 경우, 오른쪽에서만 포함된 경우, 양쪽에 걸치는 경우를 따져서 문제를 풀면 되며, 양쪽에 걸치는 경우는 좌우로 확장해나가게 구성하면 된다.
+
+#### 09_jumpgame
+https://algospot.com/judge/problem/read/JUMPGAME    
+다이나믹 프로그래밍으로 풀면 된다. dp[i][j]는 i,j에서 끝점까지 도달가능한지를 여부를 저장하는 dp 메모이다.

@@ -45,3 +45,7 @@ https://algospot.com/judge/problem/read/FENCE
 #### 09_jumpgame
 https://algospot.com/judge/problem/read/JUMPGAME    
 다이나믹 프로그래밍으로 풀면 된다. dp[i][j]는 i,j에서 끝점까지 도달가능한지를 여부를 저장하는 dp 메모이다.
+
+#### 10_wildcard
+https://algospot.com/judge/problem/read/WILDCARD    
+다이나믹 프로그래밍으로 풀면 된다. \*패턴의 경우는 와일드카드 패턴 인덱스만 전진하는 경우와(더이상 \*에 매칭 안되는 경우), 스트링 인덱스만 전진하는 경우(\*에 매칭되는 경우) 둘다 따져주면 간단하게 해결된다.

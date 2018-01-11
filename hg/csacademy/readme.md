@@ -13,3 +13,10 @@ a 수열 모두 더한 값이 b수열의 가장 큰 두개값 합과 비교하�
 
 ## round-57-div2/FoxesOnAWheel
 Fox와 은신처가 인접하면 1, 아니면 2의 코스트가 들게 되는데, Greedy하게 Mapping 하기 위해서 둘 중 하나를 정렬한 뒤, 왼쪽 아니면 오른쪽을 찾아서 갖다 매칭시키면 된다.
+
+## round-64/A.PrimeFactor
+Interactive Contest이다. 10 이하의 자연수이므로, 경우의 수가 많지 않다. 소수도 2,3,5,7 밖에 해당되지 않으므로 해당으로 조합하면 된다.
+
+## round-64/B.TrailingZero
+Binary Search로 이루어내면 된다. Q쿼리를 통해서 TrailingZero수를 알아낸다. wrong.cpp가 실제 콘테스트에 제출한 오답이고, correct.cpp가 정답코드를 통해 재구성한 정답 코드이다. 오답 코드에서 TrailingZero -> N값을 구하는 함수만 고쳐주면 정답을 구할 수 있다. 즉 leading\_zero\_to\_N 함수가 틀려서 오답이 뜬 경우이다.
+Binary Search의 경우 [)구간, 즉 Inclusive-Exclusive 구간으로 해야지 Query 개수 Limit Exceed가 일어나지 않는다. 정확한 이유는 다시 한번 분석해봐야 할 것 같다. Inclusive-Inclusive로 바이너리 서치를 할 시 Mid 값 선정에 의해서 QLE가 일어나는듯 하다. 나중에 한번 분석해 봐야 겠다.

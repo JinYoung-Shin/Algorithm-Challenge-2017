@@ -49,3 +49,7 @@ https://algospot.com/judge/problem/read/JUMPGAME
 #### 10_wildcard
 https://algospot.com/judge/problem/read/WILDCARD    
 다이나믹 프로그래밍으로 풀면 된다. \*패턴의 경우는 와일드카드 패턴 인덱스만 전진하는 경우와(더이상 \*에 매칭 안되는 경우), 스트링 인덱스만 전진하는 경우(\*에 매칭되는 경우) 둘다 따져주면 간단하게 해결된다.
+
+#### 11_trianglepath
+https://algospot.com/judge/problem/read/TRIANGLEPATH    
+다이나믹 프로그래밍으로 풀면 된다. 점화식을 forward식으로 짜도 되도 backward식으로 짜도 된다. 초반에 틀린것은 기저사례를 정해주지 않았기 때문이다. 흑흑 get(x,y)에서 x와 y가 out of range가 되었을때 처리를 해줘야 한다.

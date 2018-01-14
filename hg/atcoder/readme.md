@@ -15,3 +15,13 @@ F가 S를 나눈다는 점을 착안해서, 현재 시간을 F로 나눈 뒤 올
 
 ## beginner-084/D
 에라토스테네스의 채를 이용해서 해당 범위에 있는 모든 소수를 구한 뒤, simlar 수의 개수를 누적합으로 저장해서 쿼리를 빠르게 수행한다.
+
+# grand-020
+Solution: https://img.atcoder.jp/agc020/editorial.pdf
+
+## grand-020/A
+차가 짝수일때랑 홀수일때만 알아내면 된다.
+
+## grand-020/B
+brute.cpp 는 브루트 포스로 모든 경우를 다 따지는데 TLE다 당연히    
+linear_search.cpp 는 정답에 있는 선형탐색을 구현한 것인데 이것도 TLE다 ㅠㅠ.

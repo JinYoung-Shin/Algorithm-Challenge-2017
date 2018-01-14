@@ -53,3 +53,8 @@ https://algospot.com/judge/problem/read/WILDCARD
 #### 11_trianglepath
 https://algospot.com/judge/problem/read/TRIANGLEPATH    
 다이나믹 프로그래밍으로 풀면 된다. 점화식을 forward식으로 짜도 되도 backward식으로 짜도 된다. 초반에 틀린것은 기저사례를 정해주지 않았기 때문이다. 흑흑 get(x,y)에서 x와 y가 out of range가 되었을때 처리를 해줘야 한다.
+
+#### 12_lis
+https://algospot.com/judge/problem/read/LIS    
+다이나믹 프로그래밍으로 푼다. main.cpp는 O(N^2)로 푸는 풀이코드이다. dp[i]를 arr[i]를 마지막 수열로 하는 증가하는 부분 수열 중 최장 길이를 뜻한다. 부분수열 문제를
+sub-problem으로 분해할 때, 수열의 마지막 숫자와 그 숫자로 끝나는 수열 중 가장 긴놈의 길이를 같이 저장해야 한다.

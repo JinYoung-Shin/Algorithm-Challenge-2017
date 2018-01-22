@@ -58,3 +58,8 @@ https://algospot.com/judge/problem/read/TRIANGLEPATH
 https://algospot.com/judge/problem/read/LIS    
 다이나믹 프로그래밍으로 푼다. main.cpp는 O(N^2)로 푸는 풀이코드이다. dp[i]를 arr[i]를 마지막 수열로 하는 증가하는 부분 수열 중 최장 길이를 뜻한다. 부분수열 문제를
 sub-problem으로 분해할 때, 수열의 마지막 숫자와 그 숫자로 끝나는 수열 중 가장 긴놈의 길이를 같이 저장해야 한다.
+
+#### 13_jlis
+https://algospot.com/judge/problem/read/JLIS    
+다이나믹 프로그래밍으로 푼다. -1 인덱스를 줘서 호출을 간단하게 하는 부분은 부차적인것이고, 지금 index의 값 중 최대값을 구해서 그놈보다 큰놈에 대하여 체크하는 방식이다. LIS문제를 2차원으로 확장해서 풀었다.    
+dp-2.cpp는 -1인덱스 대신 0 인덱스가 모두 탐색하도록 바꾼 코드이다.

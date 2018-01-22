@@ -63,3 +63,7 @@ sub-problem으로 분해할 때, 수열의 마지막 숫자와 그 숫자로 끝
 https://algospot.com/judge/problem/read/JLIS    
 다이나믹 프로그래밍으로 푼다. -1 인덱스를 줘서 호출을 간단하게 하는 부분은 부차적인것이고, 지금 index의 값 중 최대값을 구해서 그놈보다 큰놈에 대하여 체크하는 방식이다. LIS문제를 2차원으로 확장해서 풀었다.    
 dp-2.cpp는 -1인덱스 대신 0 인덱스가 모두 탐색하도록 바꾼 코드이다.
+
+#### 14_pi
+https://algospot.com/judge/problem/read/PI    
+역시 다이나믹 프로그래밍으로 푼다. dp[i]는 시퀀스의 l번째 index부터 외우는 가장 낮은 난이도의 난이도 합을 가지고 있다.

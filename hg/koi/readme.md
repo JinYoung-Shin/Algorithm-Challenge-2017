@@ -92,3 +92,11 @@ https://www.acmicpc.net/problem/8979
 ### 2013/e_03_input_num
 https://www.acmicpc.net/problem/8981    
 비슷한 로직으로 하면 역연산이 된다. 이전 값 만큼 offset을 앞으로 전진시키고, 해당 위치에 다음 받은 값을 쓴다. 만약 거기 이미 값이 있다면 값이 없을 때 까지 앞으로 전진하면 된다.
+
+### 2017/e_01_room_alloc
+https://www.acmicpc.net/problem/14697    
+각각의 방 개수가 0~300개 중에 떨어지므로 3중 for문으로 완전탐색을 하면 된다.
+
+### 2017/e_02_money_raising
+https://www.acmicpc.net/problem/14863    
+dfs + memoization으로 완전탐색을 수행하면 된다. 단 조심해야 할 부분은, 마지막 종점까지 도착을 꼭 해야 한다는 것으로, 끝까지 도착하지 못한 결과는 정답에서 제외해야 한다.

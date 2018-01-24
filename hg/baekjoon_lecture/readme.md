@@ -267,3 +267,6 @@ dfs로 탐색하면 된다. 도달가능하다면 visited가 체크될 것이다
 
 ## etc/5525-ioioi
 DFA를 그려서 알아내면 된다. 상태는 3개로 OO / I / IO 만 있으면 된다.
+
+## etc/1793-tiling
+dp로 푼다. big integer가 필요하므로 python으로 풀었다. dp[0] = dp[1] = 1로 정의하고, dp[i] = dp[i-1] + dp[i-2]*2 로 점화식을 새우면 된다.

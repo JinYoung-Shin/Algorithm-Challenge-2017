@@ -260,3 +260,6 @@ C++ getline을 이용하면 된다.
 
 ## etc/11403-connectivity
 dfs로 탐색하면 된다. 도달가능하다면 visited가 체크될 것이다.
+
+## etc/1167-diameter-of-tree
+트리의 지름은 dfs를 두번 하면 된다. 아무 점t에서 dfs를 해서 t에서 가장 먼 점 u를 찾는다. 그리고 u를 기준으로 dfs를 해서 u에서 가장 먼 점 v를 찾는다. 점 u와 v 사이의 거리는 트리의 지름이다.

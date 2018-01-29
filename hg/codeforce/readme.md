@@ -308,3 +308,9 @@ if (lft[cur_digit] > 0) { //cur_digit -> 차선책
 
 ### contest-457-div2/C
 10000보다 큰 소수중에 적당한걸 골라서, 1-n까지 인접한 수로 연결되게 길을 만든 뒤, 해당 path의 weight 합이 해당 소수와 같게 한뒤, 나머지 edge는 매우 큰 값으로 하면 된다.
+
+### contest-459-div2/A
+피보나치 수열을 만들어서 확인하면 된다.
+
+### contest-459-div2/B
+이것도 간단한 문제다. Python Dictionary같은 자료구조를 쓰면 된다.

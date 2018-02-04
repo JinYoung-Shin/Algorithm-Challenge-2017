@@ -67,3 +67,7 @@ dp-2.cpp는 -1인덱스 대신 0 인덱스가 모두 탐색하도록 바꾼 코�
 #### 14_pi
 https://algospot.com/judge/problem/read/PI    
 역시 다이나믹 프로그래밍으로 푼다. dp[i]는 시퀀스의 l번째 index부터 외우는 가장 낮은 난이도의 난이도 합을 가지고 있다.
+
+#### 16_tiling2
+https://algospot.com/judge/problem/read/TILING2    
+다이나믹 프로그래밍이다. dp[i] = dp[i-1] + dp[i-2]의 점화식을 갖는다. dp[i-2]는 두개 전에 가로로 2개 쌓인 경우, dp[i-1]은 하나 전에  새로로 하나 쌓은 경우이다.

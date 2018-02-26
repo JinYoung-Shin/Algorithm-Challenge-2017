@@ -298,3 +298,6 @@ dp[i][j]를 i번째까지 진행했으며, 최근 j개의 연속된 와인을 �
 
 ## etc/1032-cmd-prompt
 ?문자밖에 없으므로 brute force로 풀면 된다. 같은 인덱스의 글자가 모두 같으면 그 글자로, 아니면 ?을 출력하면 된다.
+
+## etc/1013-contact && etc/2671-submarine
+Regular Expression 패턴 일치 확인 문제입니다. DFA를 그려서 해결하면 간단합니다.

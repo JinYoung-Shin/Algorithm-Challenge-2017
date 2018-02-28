@@ -71,3 +71,11 @@ https://algospot.com/judge/problem/read/PI
 #### 16_tiling2
 https://algospot.com/judge/problem/read/TILING2    
 다이나믹 프로그래밍이다. dp[i] = dp[i-1] + dp[i-2]의 점화식을 갖는다. dp[i-2]는 두개 전에 가로로 2개 쌓인 경우, dp[i-1]은 하나 전에  새로로 하나 쌓은 경우이다.
+
+#### 17_tripathcnt
+https://algospot.com/judge/problem/read/TRIPATHCNT    
+삼각형위의 최대 경로만 구하는게 아니라 그 경로의 개수도 새야 한다. dp로 풀 수 있다.    
+이전 까지 위에서 최대경로이여야지 밑에가서도 최대라는 것을 이용할 수 있다. dp[i][j].first는 해당 경로까지
+가는 최대 값이고, dp[i][j].second는 해당 경로를 최대 경로로 가는 가짓수이다.
+위에서 내려온거랑 오른쪽위에서 내려온게 같은 값이면 경우의수를 더해버리면 된다.
+정답 도출시에는 최대값 훑어서 최대값과 같은녀석들의 경우의 수를 더해버리면 된다.

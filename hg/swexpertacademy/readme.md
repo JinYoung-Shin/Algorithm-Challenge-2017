@@ -22,3 +22,6 @@ cin으로 하면 TLE가 나고 scanf로 하면 받아지는 더러운세상!
 https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWHPkqBqAEsDFAUn&categoryId=AWHPkqBqAEsDFAUn&categoryType=CODE    
 2^100으로 하면 당연히 TLE가 날 것이다. 근데 가능한 점수가 100*100점이니 10000점이하일 것이라는것을 알수 있다.
 이 점을 이용해서 크기가 10000인 bool 배열로 dp를 돌리면 된다. 루프 100만번 돈다고 보면 된다.
+
+## 2072 홀수만 더하기
+홀수만 더하면 된다. 몸풀기 문제

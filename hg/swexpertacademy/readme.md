@@ -25,3 +25,6 @@ https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWH
 
 ## 2072 홀수만 더하기
 홀수만 더하면 된다. 몸풀기 문제
+
+## 3347 올림픽 종목 투표
+O(N^2)로 완전탐색하면 쉽게 풀린다. 문제를 제대로 안읽어서 삽질을 좀 하였다.

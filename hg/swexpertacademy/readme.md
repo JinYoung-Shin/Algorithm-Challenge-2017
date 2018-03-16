@@ -28,3 +28,8 @@ https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWH
 
 ## 3347 올림픽 종목 투표
 O(N^2)로 완전탐색하면 쉽게 풀린다. 문제를 제대로 안읽어서 삽질을 좀 하였다.
+
+## 3316 동아리실 관리하기
+dp로 풀 수 있다. 첫번째 날에 동아리 실 열쇠를 A가 가지고 있다는 것을 빠져먹어서 삽질을 많이 했다.
+dp[bitset][len]라고 할 때, len번째 날까지 bitset만큼 멤버를 가지고 동아리실 유지하는 경우의 수로 정의하면 된다.
+이전날 bitset과 bit-wise and 연산해서 0이 아니면 열쇠를 주고받을 사람이 있다는 뜻이므로, 그렇게 계산하면 된다.

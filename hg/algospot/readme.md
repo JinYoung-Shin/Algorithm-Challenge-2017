@@ -79,3 +79,10 @@ https://algospot.com/judge/problem/read/TRIPATHCNT
 가는 최대 값이고, dp[i][j].second는 해당 경로를 최대 경로로 가는 가짓수이다.
 위에서 내려온거랑 오른쪽위에서 내려온게 같은 값이면 경우의수를 더해버리면 된다.
 정답 도출시에는 최대값 훑어서 최대값과 같은녀석들의 경우의 수를 더해버리면 된다.
+
+#### 18_snail
+https://algospot.com/judge/problem/read/SNAIL    
+counting은 이항계수를 이용해서 경우의 수를 모두 세어서 계산한 방법이다. floating-point error때문에 1000 900의 tc의 경우
+1에 수렴한 값이 나와야 하는데 0에 가까운 값이 나타난다.
+dp는 subproblem으로 나누어서 해결하는 dp방법으로 해결한 솔루션이다. 책에서 나타난 솔루션이며, 정답처리가 된다.
+dp[day][meter]는 day날동안 meter 만큼 올라왔을 때, 최종적으로 탈출할 수 있는 확률을 저장한다.

@@ -301,3 +301,6 @@ dp[i][j]를 i번째까지 진행했으며, 최근 j개의 연속된 와인을 �
 
 ## etc/1013-contact && etc/2671-submarine
 Regular Expression 패턴 일치 확인 문제입니다. DFA를 그려서 해결하면 간단합니다.
+
+## etc/1026-treasure
+둘다 정렬해서 크로스로 곱하면 된다. b가 큰놈에는 a작은놈을 순서대로 할당하면 됨

@@ -331,15 +331,19 @@ Regular Expression 패턴 일치 확인 문제입니다. DFA를 그려서 해결
 이미 마지막 줄의 3이 바로 위줄의 4보다 작으므로 넘어가버린 것이다. 그로므로 end가 같은 경우
 start가 작은 순으로 소팅을 해서 체크를 해야 한다.
 
-## 1991-tree-traversal
+## etc/1991-tree-traversal
 자료구조 수준의 문제. 재귀로 호출하면 쉽게 구현할 수 있다.
 
-## 11722-longtest-decreasing-subsequence
+## etc/11722-longtest-decreasing-subsequence
 가장 긴 증가하는 부분수열과 비슷한 방식의 dp를 구성해서 풀 수 있다.
 dp[i] = arr[i]를 마지막으로 하는 부분수열 중 가장 긴놈의 길이.로 정의한다.
 
-## 11054-longtest-bitonic-subsequence
+## etc/11054-longtest-bitonic-subsequence
 가장 긴 증가하는 부분수열을 양쪽 방향에서 하면 된다. 2번 dp를 한다고 보면됨.
 왼쪽에서 오른쪽으로 봤을 때 dp1, 오른쪽에서 왼쪽으로 봤을 때 dp2로 보고
 dp1 + dp2 - 1의 최대값을 구하면 된다. -1을 해주는 이유는 마지막 중간에 있는 녀석을
 2번 세기 때문.
+
+## etc/1699-square-sum
+제곱합 문제. dp로 해결 가능. dp[i]는 i에 대한 최소 제곱합으로 문제를 정의하면 된다. 제곱수를 빼면서
+경우를 체크하면 된다.

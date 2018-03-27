@@ -60,7 +60,8 @@ https://www.acmicpc.net/problem/10833
 
 #### 2015/e_02_belt
 https://www.acmicpc.net/problem/10834    
-바퀴 회전수 문제. 정수로 떨어지게 되어있으므로 그냥 계산하면 된다.
+바퀴 회전수 문제. 정수로 떨어지게 되어있으므로 그냥 계산하면 된다. 32bit int로 하면 integer overflow가 발생할 수 있으므로
+64bit integer로 해야 한다.
 
 #### 2015/e_03_card
 https://www.acmicpc.net/problem/10835    

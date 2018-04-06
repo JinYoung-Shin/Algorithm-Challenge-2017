@@ -373,3 +373,6 @@ dp 문제이다.
 
 ## etc/10816-num-card-2
 unordered_map을 쓰면 쉽게 하나하나 카운트해서 가능하다.
+
+## etc/14888-operator-injection
+dfs로 모든 경우를 완전탐색하면 간단하게 정답을 구할 수 있다.

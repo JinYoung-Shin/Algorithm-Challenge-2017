@@ -487,3 +487,7 @@ CCW는 다음 블로그에서 참고했다.
 
 ### F1.Lightsabers
 색 별로 구간합을 구한다. 가능한 길이의 모든 구간에 대해서 확인해보면 된다.
+
+### contest-473-div2/B
+DSU관련 구현문제이다. unordered_map을 이용해서 string->index mapping하면 풀 수 있다.
+구현하는데 조금 귀찮은 문제

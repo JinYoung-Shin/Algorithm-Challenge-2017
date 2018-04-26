@@ -491,3 +491,22 @@ CCW는 다음 블로그에서 참고했다.
 ### contest-473-div2/B
 DSU관련 구현문제이다. unordered_map을 이용해서 string->index mapping하면 풀 수 있다.
 구현하는데 조금 귀찮은 문제
+
+### contest-476-div2/A
+1인당 필요한 시트 수를 계산한다. ceiling(n/s)개 이며, 총 필요한 시트수는 1인당 필요한 시트 수 * 사람 수이므로
+k * ceiling(n/s)이다.
+ceiling(총 필요 시트 수 / p)이 정답이다.
+
+### contest-476-div2/B
+하나하나 다 해보면 된다. 똑같은 2차원 배열 만들어서 배를 놓을 수 있을 시 1씩 증가한 뒤 최대값을 갖는 좌표를 출력하면 된다.
+
+### contest-476-div2/C
+솔루션을 보고 풀었다.
+[솔루션  URL](http://codeforces.com/blog/entry/59105)    
+[솔루션 코드](http://codeforces.com/contest/965/submission/37617552)    
+
+solution.cpp는 cpp로 구현했는데, long long 도 overflow가 나는 것같다. 중간 계산과정에서 나는듯하다.
+파이썬으로 푼 sol.py는 accept를 받았다. main.cpp는 컨테스트 도중 시도한 것인데 망한 솔루션이다.
+
+D값이 1000이하이므로 크지 않아서, D값을 기준으로 최대 x를 구해서 정답을 찾아보는 방식이다.
+풀이 방식은 알겠는데 이렇게 간단한 코드로 푸는게 좀 신기하긴 하며 아직 100% 이해가 안된다..

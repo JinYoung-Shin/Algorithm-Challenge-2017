@@ -1,100 +1,100 @@
 # Baekjoon Online Judge
 
-#### etc/14719-rain-water
+#### 14719-rain-water
 brute force로 모든 셀을 순회해서, black 사이의 거리만큼 더하면 된다.
 
-#### etc/2629-pan-balance
+#### 2629-pan-balance
 양팔저울 문제. 추로 나타낼 수 있는 무게가 15000g이하이므로, 각각의 경우에 대하여 가능한지 아닌지를 기록한 다이나믹 프로그래밍으로 문제를 풀 수 있다. 새로운 추가 추가되었을 때, 가능한 무게에 해당 추를 추가한 경우, 반대편에 추를 추가한 경우를 고려해서 무게를 표현할 수 있는지를 확인하면 된다.
 
-#### etc/1373-bin2oct
+#### 1373-bin2oct
 문자열로 받아서 가장 뒤 부터 3개씩 끊어서 8진수로 만든 뒤 거꾸로 출력하면 된다.
 
-### etc/1920-occur
+### 1920-occur
 입력값이 100만개 이상이므로, cin/cout을 쓰지 말고 scanf/printf를 사용하면 된다.
 CPP코드는 정답이 나온다.
 파이썬 코드는 런타임 에러가 났는데 왜 그런지는 아직은 모르겠다.
 
-### etc/1927-min-heap
+### 1927-min-heap
 http://blog.eairship.kr/249   
 해당 글을 보고 참조하여 구현했다. 소스코드는 참조하지 않고 알고리즘만 참조했다.
 
-### etc/11279-max-heap
+### 11279-max-heap
 http://blog.eairship.kr/249   
 해당 글을 보고 참조하여 구현했다. 소스코드는 참조하지 않고 알고리즘만 참조했다.
 
-### etc/1076-resistance
+### 1076-resistance
 파이썬 딕셔너리로 string을 만든 뒤 정수로 evaluation 해서 풀면 된다.
 
-### etc/1992-quad-tree
+### 1992-quad-tree
 분할정복으로 풀면 된다. 재귀로 구현하면 생각보다 간단하다.
 
-### etc/14889-start-link
+### 14889-start-link
 dfs로 완전탐색을 하면 된다. 재귀로 구현하면 좋다.
 
-### etc/11053-longest-increasing-subsequence
+### 11053-longest-increasing-subsequence
 dp_correct.cpp는 맞는 dp이고, dp_wrong.cpp는 틀린 dp다. dp_correct.cpp는 1차원 dp로 dp[i]는 i번째 원소를 마지막으로 하는 최장 부분수열 길이이다.
 
-### etc/1004-little-prince
+### 1004-little-prince
 기하학 문제이다. 원이 들어왔을 때, 시작점과 도착점이 해당 원에 포함되는지 확인하고, 하나만 포함된 경우 카운트가 1 증가하게 된다.
 
-### etc/2751-sorting2
+### 2751-sorting2
 O(nlgn)의 소팅을 사용하면 풀 수 있는 문제이다. merge_sort.cpp는 머지소트이며 merge_sort(start, end)의 경우 [start, end]의 폐구간을 정렬한다. merge_sort2.cpp의 머지소트인 merge_sort(start, end)의 경우는, [start, end)의 반개구간을 사용한다. border case를 잘 따져야 한다.
 
-### etc/1874-stack-seqeunce
+### 1874-stack-seqeunce
 언뜻 보면 어려워 보이지만, 가능한 경우만 상황에 따라서 따라가면 된다.    
 문제에서 주어진 수열과, 1부터 증가하는 수열 두개를 비교해가면서 상황에 맞게 스택 연산을 하면된다.    
 1. 두개 값이 같은 경우 push 와 pop을 한번씩 하고 두 수열 다 다음것으로 넘어감    
 2. 주어진 수열이 스택의 top과 같다면 pop하고 주어진 수열만 다음것으로 넘어감.
 3. 두개 값이 다른 경우 push를 한번 하고 1부터 증가하는 수열만 다음것으로 넘어감.
 
-### etc/2581-prime
+### 2581-prime
 1은 소수가 아니다. 이 부분만 잘 체크하면 된다. 특정수 n이 소수인지 아닌지는 2부터 sqrt(n)까지의 모든 수로 나누어보고 모두 나누어 떨어지지 않으면 소수다. Naive한 소수 판별 알고리즘
 
-## etc/14924-von-neuman-fly
+## 14924-von-neuman-fly
 공식을 적용하면 간단하다.
 
-## etc/1158-josephers
+## 1158-josephers
 Circular Doubly Linked List를 이용하면 쉽게 해결할 수 있다. Doubly Linked List는 제공하지만, Circular한 부분은 직접 구현했다.
 
-## etc/1406-editor
+## 1406-editor
 링크드 리스트를 자료구조로 가져가면, 삽입, 삭제 시 O(1)로 해결할 수 있다. emplace로 추가하고 erase로 삭제하면 된다.
 
-## etc/1764-unknown
+## 1764-unknown
 해시 자료구조를 이용하면 간단하게 해결 가능하다.
 
-## etc/11655-rot13
+## 11655-rot13
 13더해서 모듈러하면 된다.
 
-## etc/10820-string-analysis
+## 10820-string-analysis
 C++ getline을 이용하면 된다.
 
-## etc/2743-wordlen
+## 2743-wordlen
 그냥 길이를 재면 된다.
 
-## etc/10799-iron-pipe
+## 10799-iron-pipe
 알고리즘을 다음과 같이 짠다. 일단 ()를 1로 치환해서 레이저임을 확실하게 보이게 만든다.
 앞으로 진행하면서 각각의 char이 무엇인지 비교한다.
 1. '(' 인 경우 : opened에 1을 추가한다. 지금 진행중인 파이프개수가 나중에 레이져를 만날때 마다 파이프 개수만큼 조각이 늘어나기때문.
 2. '1' 인 경우 : opened만큼 정답을 추가한다. 진행중인 파이프 개수만큼 잘린 파이프 조각 수가 늘어난다.
 3. ')' 인 경우 : opened에 1을 감소시키고, 정답에 1을 추가한다. 끝났기 때문에 이제 진행중이지 않은 파이프가 되며, 그거 자체로 하나의 조각이 된다.
 
-## etc/10808-alphabet-num
+## 10808-alphabet-num
 그냥 세면 된다.
 
-## etc/11403-connectivity
+## 11403-connectivity
 dfs로 탐색하면 된다. 도달가능하다면 visited가 체크될 것이다.
 
-## etc/1167-diameter-of-tree
+## 1167-diameter-of-tree
 트리의 지름은 dfs를 두번 하면 된다. 아무 점t에서 dfs를 해서 t에서 가장 먼 점 u를 찾는다. 그리고 u를 기준으로 dfs를 해서 u에서 가장 먼 점 v를 찾는다.
 점 u와 v 사이의 거리는 트리의 지름이다.
 
-## etc/5525-ioioi
+## 5525-ioioi
 DFA를 그려서 알아내면 된다. 상태는 3개로 OO / I / IO 만 있으면 된다.
 
-## etc/1793-tiling
+## 1793-tiling
 dp로 푼다. big integer가 필요하므로 python으로 풀었다. dp[0] = dp[1] = 1로 정의하고, dp[i] = dp[i-1] + dp[i-2]*2 로 점화식을 새우면 된다.
 
-## etc/10826-fibo4
+## 10826-fibo4
 피보나치다. loop로 풀어도 되고 dp로 풀어도 되지만, 중요한 것은 64bit integer 범위를 매우 뛰어넘는다는 것이다.
 입력값이 최대값인 10000이 들어가게 되면 답은 다음과 같다.
 ```
@@ -102,33 +102,33 @@ dp로 푼다. big integer가 필요하므로 python으로 풀었다. dp[0] = dp[
 ```
 하핫 그래서 파이썬을 쓰면된다.
 
-## etc/10844-easy-stair-num
+## 10844-easy-stair-num
 쉬운 계단수이다. dp로 푸는데 식을 이렇게 정의한다 dp[l][sz][r] 로 해서, 왼쪽 끝 수, 길이, 오른쪽 끝 수로 한다.
 그래서 오른쪽으로 한 숫자씩 늘어난다고 생각해서, 개수를 세면 된다.
 
-## etc/9465-sticker
+## 9465-sticker
 왼쪽부터 스티커를 때는데, 어차피 같은 x좌표라고 하면 위 아래 중 하나만 땔 수 있고, 하나를 땟을때 오른쪽 다음것의 상태가 (위만 가능, 아래만 가능, 둘만 가능)의 3가지 상태가 나타나는 것을 착안하여 2차원 dp로 해결 가능.
 dp[x][stat] 으로 x좌표와 상태3개의 dp로 풀 수 있다.
 
-## etc/15353-bignum
+## 15353-bignum
 BigInteger 클래스를 덧셈 연산 가능하도록 C++에서 구현하면 된다.
 
-## etc/2156-wine-drinking
+## 2156-wine-drinking
 dp[i][j]를 i번째까지 진행했으며, 최근 j개의 연속된 와인을 마셨을때의 최대 많이 마신 수라고 정의하면 된다.
 
-## etc/11055-largest-increasing-subsequence
+## 11055-largest-increasing-subsequence
 11053번 문제와 비슷하다. 길이 대신 값의 합으로 dp배열에 저장하면 된다. dp[i]는 i번째 원소를 마지막으로 하는 부분 수열 중, 수열의 합의 최대값으로 정의하면 된다.
 
-## etc/1032-cmd-prompt
+## 1032-cmd-prompt
 ?문자밖에 없으므로 brute force로 풀면 된다. 같은 인덱스의 글자가 모두 같으면 그 글자로, 아니면 ?을 출력하면 된다.
 
-## etc/1013-contact && etc/2671-submarine
+## 1013-contact && 2671-submarine
 Regular Expression 패턴 일치 확인 문제입니다. DFA를 그려서 해결하면 간단합니다.
 
-## etc/1026-treasure
+## 1026-treasure
 둘다 정렬해서 크로스로 곱하면 된다. b가 큰놈에는 a작은놈을 순서대로 할당하면 됨
 
-## etc/1931-alloc-room
+## 1931-alloc-room
 회의실배정문제. greedy로 해결이 가능하다. 앞에서부터 하나하나 고른다고 생각할 때, end가 가장 작은녀석을
 먼저 고르면 뒤쪽의 남은 공간이 제일 커지므로 end가 가장 작은녀석을 고르는 것이 합당하다.
 그러면 end가 같은 경우 어떤녀석을 먼저 확인해야 할 것인가를 골라야 한다. 시작과 끝이 같은 경우(e.g. 3 3)
@@ -154,69 +154,69 @@ Regular Expression 패턴 일치 확인 문제입니다. DFA를 그려서 해결
 이미 마지막 줄의 3이 바로 위줄의 4보다 작으므로 넘어가버린 것이다. 그로므로 end가 같은 경우
 start가 작은 순으로 소팅을 해서 체크를 해야 한다.
 
-## etc/1991-tree-traversal
+## 1991-tree-traversal
 자료구조 수준의 문제. 재귀로 호출하면 쉽게 구현할 수 있다.
 
-## etc/11722-longtest-decreasing-subsequence
+## 11722-longtest-decreasing-subsequence
 가장 긴 증가하는 부분수열과 비슷한 방식의 dp를 구성해서 풀 수 있다.
 dp[i] = arr[i]를 마지막으로 하는 부분수열 중 가장 긴놈의 길이.로 정의한다.
 
-## etc/11054-longtest-bitonic-subsequence
+## 11054-longtest-bitonic-subsequence
 가장 긴 증가하는 부분수열을 양쪽 방향에서 하면 된다. 2번 dp를 한다고 보면됨.
 왼쪽에서 오른쪽으로 봤을 때 dp1, 오른쪽에서 왼쪽으로 봤을 때 dp2로 보고
 dp1 + dp2 - 1의 최대값을 구하면 된다. -1을 해주는 이유는 마지막 중간에 있는 녀석을
 2번 세기 때문.
 
-## etc/1699-square-sum
+## 1699-square-sum
 제곱합 문제. dp로 해결 가능. dp[i]는 i에 대한 최소 제곱합으로 문제를 정의하면 된다. 제곱수를 빼면서
 경우를 체크하면 된다.
 
-## etc/11656-suffix-array
+## 11656-suffix-array
 suffix를 하나하나 만든 뒤 넣고 소팅하면 된다.
 
-## etc/2133-tri-tiling
+## 2133-tri-tiling
 부분문제와 state별로 나누어서 따져보면 된다. dp문제
 
-## etc/11727-2n-tiling2
+## 11727-2n-tiling2
 1x2를 세로로 새우는경우 dp[i+1] += dp[i]
 2x2를 바로 넣거나 1x2를 가로로 두개 새우는 경우 dp[i+2] += dp[i] * 2;
 으로 점화식을 세웠다. 1x2를 세로로 두개 넣는 경우는 하나만 새우는 경우에서
 이미 개수를 세기 때문에 중복으로 세지 않도록 하기 위해서 저렇게 구성했다.
 
-## etc/9461-padovan-sequence
+## 9461-padovan-sequence
 dp[i] = dp[i-1] + dp[i-5];
 초반에는 1 1 1 2 2 의 sequence를 먼저 박아준다. 점화식을 돌리면 된다. overflow를 고려해서 long long으로
 변수를 바꾸어 주면 완벽하다.
 
-## etc/2011-alphacode
+## 2011-alphacode
 한자리씩 끊어 읽는 경우와 두자리를 끊어 읽는 경우를 따져주면 된다.
 지금 자리 값이 0이 아니면 한자리씩 끊어 읽을 수가 있고, 지금 값과 다음 값이 10~26이면 두자리씩 끊어
 읽을수가 있다.
 dp 문제이다.
 
-## etc/10816-num-card-2
+## 10816-num-card-2
 unordered_map을 쓰면 쉽게 하나하나 카운트해서 가능하다.
 
-## etc/14888-operator-injection
+## 14888-operator-injection
 dfs로 모든 경우를 완전탐색하면 간단하게 정답을 구할 수 있다.
 
-## etc/2609-gcd-lcm
+## 2609-gcd-lcm
 유클리드 호재법으로 최대공약수를 구하면 최대공배수는 "두 수의 곱 / 최대공약수"로 쉽게 구할 수 있다.
 
-## etc/9613-sum-of-gcd
+## 9613-sum-of-gcd
 GCD가 가능한 모든 pair에 대하여 구해서 더하면 된다.
 
-## etc/1934-lcm
+## 1934-lcm
 a*b/gcd 가 lcm이다.
 
-## etc/2745-base-trans
+## 2745-base-trans
 진법변환. 수학하듯이 하나하나 곱하면서 더하면 된다.
 
-## etc/11005-base-trans2
+## 11005-base-trans2
 가장 아랫 자리 수 부터 진법으로 나머지 연산한 녀석을 하나하나씩 문자로 나타내고, 진법으로 나누어서
 자릿수를 옮겨나가면 된다.
 
-## etc/2089-minus2base
+## 2089-minus2base
 기존의 양수 진법과는 다르게, 아래자리 수를 더한다고 윗자리수로 얌전히 carry가 일어나서 올라가지가 않는다.
 그래서 가장 큰 자리수 부터 scan하면서 해당 자리수에 1이 들어갈지 0이 들어갈지를 하나하나 따져가면서 풀었다. 
 일종의 분할정복으로 볼 수도 있다.
@@ -224,10 +224,10 @@ a*b/gcd 가 lcm이다.
 자리수+neg ~ 자리수+pos 까지의 수를 커버할 수 있다는 뜻이다. 남은 수가 해당 범위에 포함되면 1, 아니면 0을
 선택하는 방식으로 풀었다.
 
-## etc/11576-base-conversion
+## 11576-base-conversion
 A진법 수를 10진수로 바꾼 뒤 다시 B진법 수로 바꾸면 된다.
 
-## etc/2623-music-program
+## 2623-music-program
 기본적인 위상정렬 문제이다. 큐를 이용해서 방문을 하는 bfs와 유사한데 다음 부분만 고려하면 된다.
 초기 자료구조를 설정할때 인접리스트로 작성하고, indegree 값을 따로 저장해놓는다.
 1. 초기 queue에 indegree가 0인 녀석들을 다 넣는다.
@@ -235,11 +235,11 @@ A진법 수를 10진수로 바꾼 뒤 다시 B진법 수로 바꾸면 된다.
 3. queue에서 뺄 때 인접 리스트에 잇는 녀석들의 indegree를 다 1씩 감소시킨다. 해당 노드를 삭제할 예정이므로 그렇다.
 4. 감소된 indegree가 0이 된녀석들을 다 큐에 넣는다.
 
-## etc/14891-gear
+## 14891-gear
 구현문제. 귀찮게 생겻다. 12시 위치를 pos 배열에 넣어서 설정하였고, 마지막에 기어 숫자가 1부터 넘버링된다는
 것을 간과해서 오류가 생겼었다.
 
-## etc/14890-inlinced-road
+## 14890-inlinced-road
 단순한 구현 문제이다. 어떻게 구현해야 편할지 고민을 좀 했다.
 가로 세로 별 각각 구간을 압축해서 저장한다. pair<int, int>의 배열로 저장하는데, first는 경사로의 높이,
 second는 해당 동일한 높이가 연속되는 길이로 저장한다.
@@ -248,9 +248,12 @@ second는 해당 동일한 높이가 연속되는 길이로 저장한다.
 뺀 길이가 0미만이 되면 해당 경우도 실패이므로 세지 않는다.
 이와 같이 구현하면 쉽게 풀이할 수 있다.
 
-## etc/2252-lining
+## 2252-lining
 위상정렬을 구현하면 된다.
 
-## etc/2003-num-sum
+## 2003-num-sum
 two pointer 문제이다. greedy와 비슷하게 풀 수 있다.
 
+## 1766-problem-set
+위상정렬 문제이다. 일반적인 위상정렬과는 조금 다른 점이, 지금 존재하는 indegree=0인 녀석 중 가장 값이 작은 녀석이
+먼저 정렬되어야 한다는 점이다. 큐를 이용하는 위상정렬에서 우선순위 큐를 사용하도록 바꾸면 쉽게 풀 수 있다.

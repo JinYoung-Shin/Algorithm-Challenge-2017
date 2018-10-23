@@ -270,3 +270,6 @@ dfs, bfs를 구현하면 된다. 작은 것 먼저 참조한다는 것은 인접
 
 ## 6593-dungeon-master
 bfs를 3차원에 적용하면 된다.
+
+## 2631-lining
+LIS(Longest Increasing Subsequence)를 구한 뒤 전체에서 그 길이를 빼면 됩니다.

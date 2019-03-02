@@ -37,3 +37,7 @@ https://algospot.com/judge/problem/read/CLOCKSYNC
 #### 06_quadtree
 https://algospot.com/judge/problem/read/QUADTREE    
 쿼드트리 트리 자료구조를 직접 구현해서, 출력 순서를 1,2,3,4 가 아닌 3,4,1,2 로 하면 된다.
+
+#### 07_fence
+https://algospot.com/judge/problem/read/FENCE    
+책에 나온 알고리즘을 참조하여 구현함. Divide and conquer 방식인데, 같은 문제를 2번 이상 풀지 않으므로 DP의 memoization은 필요가 없다. Brute force시 O(N^2)이 걸리는데 비해, 이 방식은 O(NlgN)이 걸린다.

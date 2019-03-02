@@ -171,24 +171,17 @@ https://www.acmicpc.net/problem/2042
 [GeeksforGeeks 팬윅트리\(바이너리 인덱스트 트리\) 설명글](http://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)    
 [탑코더 Binary Indexed Tree 설명글](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/)
 
-#### etc/14719-rain-water
-brute force로 모든 셀을 순회해서, black 사이의 거리만큼 더하면 된다.
+### 4.3-bfs/2206-breaking-wall
+벽부수고 이동하기다. dp베이스의 bfs로 풀 수 있다. 3차원 배열을 잘못 선언해서 삽질을 많이 함.
 
-#### etc/2629-pan-balance
-양팔저울 문제. 추로 나타낼 수 있는 무게가 15000g이하이므로, 각각의 경우에 대하여 가능한지 아닌지를 기록한 다이나믹 프로그래밍으로 문제를 풀 수 있다. 새로운 추가 추가되었을 때, 가능한 무게에 해당 추를 추가한 경우, 반대편에 추를 추가한 경우를 고려해서 무게를 표현할 수 있는지를 확인하면 된다.
+1부터 증가하는 수열이 먼저 끝날 것이기 때문에, 스택에 남은 수를 모두 덤프하면 된다.    
+매치가 안 될 경우 fail이다.
 
-#### etc/1373-bin2oct
-문자열로 받아서 가장 뒤 부터 3개씩 끊어서 8진수로 만든 뒤 거꾸로 출력하면 된다.
+탐색이 종료된 이후에 정답 array의 개수와 전체 노드 개수가 일치하지 않으면 정렬에 실패한 것이다.
+이러한 경우는 cycle이 있을 경우 그러하다.
 
-### etc/1920-occur
-입력값이 100만개 이상이므로, cin/cout을 쓰지 말고 scanf/printf를 사용하면 된다.
-CPP코드는 정답이 나온다.
-파이썬 코드는 런타임 에러가 났는데 왜 그런지는 아직은 모르겠다.
+## 4.4-dp-basis/13398-accu-sum2
+1912번 문제랑 비슷하다. dp를 두번 하면 된다. ldp는 왼쪽에서 부터 올라와서, 해당 ldp\[i\]의 경우 i에서 끝나는
+연속 합 중 최대값을 저장하고, rdp는 오른쪽에서 부터 올라와서 rdp\[i\]의 경우 i에서 시작하는 연속 합 중 최대값을 저장한다.
+각각의 최대값과, 중간에 하나를 뺀 최대값 중 최대값이 정답이다.
 
-### etc/1927-min-heap
-http://blog.eairship.kr/249   
-해당 글을 보고 참조하여 구현했다. 소스코드는 참조하지 않고 알고리즘만 참조했다.
-
-### etc/11279-max-heap
-http://blog.eairship.kr/249   
-해당 글을 보고 참조하여 구현했다. 소스코드는 참조하지 않고 알고리즘만 참조했다.

@@ -2,14 +2,15 @@
 
 using namespace std;
 
+typedef long long ll;
 int main() {
 	int M;
 	bool direction = false;
-	int rot = 1;
+	ll rot = 1;
 	cin >> M;
 	
 	while (M--) {
-		int a, b;
+		ll a, b;
 		int dir;
 		cin >> a >> b >> dir;
 		rot *= b;
